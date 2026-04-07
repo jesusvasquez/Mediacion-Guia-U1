@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import { FileText, CheckCircle, AlertTriangle, ArrowDown } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 
@@ -98,7 +98,7 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
         
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
           {data.organizadorPrevio.fases.map((fase, index) => (
-            <React.Fragment key={index}>
+            <Fragment key={index}>
               <div 
                 className="step-card"
                 style={{ 
@@ -121,7 +121,7 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
               {index < data.organizadorPrevio.fases.length - 1 && (
                 <ArrowDown size={20} color="var(--primary)" style={{ opacity: 0.4, margin: '0.25rem 0' }} />
               )}
-            </React.Fragment>
+            </Fragment>
           ))}
         </div>
       </div>

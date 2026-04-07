@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Type, Moon, Sun, Volume2, Menu, LogOut, RefreshCw } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 

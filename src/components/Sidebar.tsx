@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { Brain, LayoutDashboard, Users, Library, CheckCircle2, X } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';

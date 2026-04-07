@@ -19,25 +19,17 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider = ({ children }: { children: ReactNode }) => {
-  const [userName, setUserName] = useState('');
-  const [userEmail, setUserEmail] = useState('');
-  const [fontSize, setFontSize] = useState(16); // Base size 16px
+  const [userName, setUserName] = useState(() => localStorage.getItem('benune_user_name') || '');
+  const [userEmail, setUserEmail] = useState(() => localStorage.getItem('benune_user_email') || '');
+  const [fontSize, setFontSize] = useState(16);
   const [highContrast, setHighContrast] = useState(false);
-  const [completedModules, setCompletedModules] = useState<string[]>([]);
-
-  // Load from local storage on init
-  useEffect(() => {
-    const storedName = localStorage.getItem('benune_user_name');
-    const storedEmail = localStorage.getItem('benune_user_email');
-    const storedModules = localStorage.getItem('benune_completed_modules');
-    if (storedName) setUserName(storedName);
-    if (storedEmail) setUserEmail(storedEmail);
-    if (storedModules) {
-      try {
-        setCompletedModules(JSON.parse(storedModules));
-      } catch(e) {}
+  const [completedModules, setCompletedModules] = useState<string[]>(() => {
+    const saved = localStorage.getItem('benune_completed_modules');
+    if (saved) {
+      try { return JSON.parse(saved); } catch(e) { return []; }
     }
-  }, []);
+    return [];
+  });
 
   const login = (name: string, email: string) => {
     setUserName(name);
