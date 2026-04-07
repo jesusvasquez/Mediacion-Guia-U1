@@ -50,9 +50,9 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
           correctCount++;
         }
       });
-      
+
       const percentage = (correctCount / data.miniTest.length) * 100;
-      
+
       if (percentage >= 60) {
         // Mark modulo as completed when reached >= 60%
         markModuleCompleted(data.moduloId);
@@ -83,7 +83,7 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
 
   return (
     <div className="flex-col animate-fade-in" style={{ gap: '3rem', maxWidth: '1000px', margin: '0 auto' }}>
-      
+
       {/* HEADER */}
       <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
         <p className="text-sm text-muted" style={{ fontWeight: 600, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '0.5rem' }}>Módulo {data.moduloId}</p>
@@ -96,26 +96,26 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
       {/* ORGANIZADOR PREVIO (DYNAMIC CONCEPT MAP) */}
       <div className="glass-panel" style={{ padding: '3rem', textAlign: 'center' }}>
         <h3 className="text-xl" style={{ color: 'var(--secondary)', marginBottom: '2.5rem', fontWeight: 600 }}>Organizador Previo: Mapa de Ruta</h3>
-        
+
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
           {data.organizadorPrevio.fases.map((fase, index) => (
             <Fragment key={index}>
-              <div 
+              <div
                 className="step-card"
-                style={{ 
-                  width: '100%', 
-                  maxWidth: '450px', 
-                  padding: '1.25rem', 
-                  background: index === 0 ? 'var(--surface-hover)' : 'var(--bg-color)', 
-                  borderRadius: '12px', 
-                  border: `1px solid ${index === data.organizadorPrevio.fases.length - 1 ? 'var(--secondary)' : 'var(--border-light)'}`, 
+                style={{
+                  width: '100%',
+                  maxWidth: '450px',
+                  padding: '1.25rem',
+                  background: index === 0 ? 'var(--surface-hover)' : 'var(--bg-color)',
+                  borderRadius: '12px',
+                  border: `1px solid ${index === data.organizadorPrevio.fases.length - 1 ? 'var(--secondary)' : 'var(--border-light)'}`,
                   boxShadow: 'var(--shadow-sm)',
                   transition: 'transform 0.2s ease',
                   borderLeft: `4px solid ${index === data.organizadorPrevio.fases.length - 1 ? 'var(--secondary)' : 'var(--primary)'}`
                 }}
               >
                 <h4 style={{ color: index === data.organizadorPrevio.fases.length - 1 ? 'var(--secondary)' : 'var(--primary)', fontWeight: 600, marginBottom: '0.25rem', fontSize: '0.95rem' }}>
-                    {fase.nombre}
+                  {fase.nombre}
                 </h4>
                 <p className="text-sm text-muted" style={{ fontSize: '0.85rem' }}>{fase.descripcion}</p>
               </div>
@@ -129,11 +129,11 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
 
       {/* DOWNLOAD PDF ACTION */}
       <div style={{ textAlign: 'center', marginTop: '-1rem', marginBottom: '1.5rem' }}>
-        <a 
-          href={`/pdfs/ApuntesEstudioM${data.moduloId}.pdf`} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="btn btn-secondary" 
+        <a
+          href={`/public/pdfs/ApuntesEstudioM${data.moduloId}.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-secondary"
           style={{ display: 'inline-flex', gap: '0.75rem', textDecoration: 'none', padding: '0.75rem 2rem' }}
         >
           <FileText size={18} /> Descargar Guía de Apuntes Módulo {data.moduloId} (PDF)
@@ -144,26 +144,26 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
       <div style={{ textAlign: 'center' }}>
         <h3 className="text-2xl" style={{ color: 'var(--primary)', marginBottom: '1.5rem', fontWeight: 600 }}>Esenciales del Módulo</h3>
       </div>
-      
+
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
         {data.extractos.map((ext) => (
-          <div 
-            key={ext.id} 
-            className="glass-panel" 
-            style={{ 
-              padding: '2rem', 
-              display: 'flex', 
-              flexDirection: 'column', 
-              gap: '1rem', 
+          <div
+            key={ext.id}
+            className="glass-panel"
+            style={{
+              padding: '2rem',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '1rem',
               borderTop: `6px solid ${ext.color || 'var(--primary)'}`,
               transition: 'transform 0.2s ease'
             }}
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.25rem' }}>
-               <CheckCircle size={22} color={ext.color || 'var(--primary)'} />
-               <h3 className="text-lg" style={{ color: 'var(--text-main)', fontWeight: 700, fontSize: '1.05rem' }}>{ext.titulo}</h3>
+              <CheckCircle size={22} color={ext.color || 'var(--primary)'} />
+              <h3 className="text-lg" style={{ color: 'var(--text-main)', fontWeight: 700, fontSize: '1.05rem' }}>{ext.titulo}</h3>
             </div>
-            
+
             <p className="text-sm" style={{ color: 'var(--text-main)', lineHeight: 1.7, flexGrow: 1 }}>
               {ext.contenido}
             </p>
@@ -172,13 +172,13 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
               <p className="text-xs" style={{ fontWeight: 600, color: 'var(--text-muted)', marginBottom: '0.75rem' }}>Conceptos Rescatados:</p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                 {ext.puntosClave.map((punto, pIdx) => (
-                  <span 
-                    key={pIdx} 
-                    className="text-xs" 
-                    style={{ 
-                      padding: '0.25rem 0.75rem', 
-                      background: 'rgba(0,0,0,0.04)', 
-                      borderRadius: '12px', 
+                  <span
+                    key={pIdx}
+                    className="text-xs"
+                    style={{
+                      padding: '0.25rem 0.75rem',
+                      background: 'rgba(0,0,0,0.04)',
+                      borderRadius: '12px',
                       color: 'var(--text-main)',
                       border: '1px solid var(--border-light)'
                     }}
@@ -190,11 +190,11 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
             </div>
 
             <div style={{ marginTop: '1.5rem', paddingTop: '1rem', borderTop: '1px solid var(--border-light)' }}>
-              <a 
-                href={`/pdfs/${ext.fuente}`} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="btn btn-secondary text-xs" 
+              <a
+                href={`/pdfs/${ext.fuente}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-secondary text-xs"
                 style={{ width: '100%', gap: '0.5rem' }}
               >
                 <FileText size={14} /> Fuente: {ext.fuente.replace('.pdf', '').replace(/_/g, ' ')}
@@ -211,89 +211,89 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
           {data.miniTest.map((q, qIndex) => {
-             const questionLocked = !!locked[qIndex];
-             
-             return (
-               <div key={qIndex} style={{ animation: 'fadeUp 0.5s ease backwards', animationDelay: `${qIndex * 0.1}s` }}>
-                 <p className="text-lg" style={{ fontWeight: 600, marginBottom: '1.5rem', color: 'var(--text-main)', display: 'flex', gap: '0.75rem' }}>
-                   <span style={{ color: 'var(--primary)', opacity: 0.5 }}>{qIndex + 1}.</span>
-                   {q.pregunta}
-                 </p>
-                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
-                   {q.opciones.map((op, idx) => {
-                      const selected = answers[qIndex] === op;
-                      const isCorrect = op === q.respuesta;
+            const questionLocked = !!locked[qIndex];
 
-                      let bg = selected ? 'var(--primary-light)' : 'var(--bg-color)';
-                      let border = selected ? 'var(--primary)' : 'var(--border-light)';
-                      let textColor = 'var(--text-main)';
+            return (
+              <div key={qIndex} style={{ animation: 'fadeUp 0.5s ease backwards', animationDelay: `${qIndex * 0.1}s` }}>
+                <p className="text-lg" style={{ fontWeight: 600, marginBottom: '1.5rem', color: 'var(--text-main)', display: 'flex', gap: '0.75rem' }}>
+                  <span style={{ color: 'var(--primary)', opacity: 0.5 }}>{qIndex + 1}.</span>
+                  {q.pregunta}
+                </p>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
+                  {q.opciones.map((op, idx) => {
+                    const selected = answers[qIndex] === op;
+                    const isCorrect = op === q.respuesta;
 
-                      if (questionLocked) {
-                        if (isCorrect) {
-                          bg = '#e6f4ea';
-                          border = '#34a853';
-                          textColor = '#0d5d2a';
-                        } else if (selected && !isCorrect) {
-                          bg = '#fce8e6';
-                          border = '#ea4335';
-                          textColor = '#a52828';
-                        }
+                    let bg = selected ? 'var(--primary-light)' : 'var(--bg-color)';
+                    let border = selected ? 'var(--primary)' : 'var(--border-light)';
+                    let textColor = 'var(--text-main)';
+
+                    if (questionLocked) {
+                      if (isCorrect) {
+                        bg = '#e6f4ea';
+                        border = '#34a853';
+                        textColor = '#0d5d2a';
+                      } else if (selected && !isCorrect) {
+                        bg = '#fce8e6';
+                        border = '#ea4335';
+                        textColor = '#a52828';
                       }
+                    }
 
-                      return (
-                        <label 
-                          key={idx}
-                          style={{
-                            display: 'flex', alignItems: 'center', padding: '1.15rem', borderRadius: '12px',
-                            border: `2px solid ${border}`, background: bg, cursor: questionLocked ? 'default' : 'pointer',
-                            color: textColor, transition: 'all 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
-                            opacity: questionLocked && !selected && !isCorrect ? 0.5 : 1,
-                            boxShadow: selected && !questionLocked ? '0 4px 12px rgba(86, 12, 12, 0.1)' : 'none',
-                            transform: selected && !questionLocked ? 'scale(1.01)' : 'scale(1)'
-                          }}
-                        >
-                          <input 
-                            type="radio" 
-                            name={`minitest-${qIndex}`} 
-                            value={op}
-                            checked={selected}
-                            onChange={() => handleSelect(qIndex, op)}
-                            disabled={questionLocked}
-                            style={{ marginRight: '1rem', transform: 'scale(1.3)', accentColor: 'var(--primary)' }}
-                          />
-                          <span style={{ fontWeight: selected ? 600 : 400, flex: 1 }}>{op}</span>
-                        </label>
-                      )
-                   })}
-                 </div>
+                    return (
+                      <label
+                        key={idx}
+                        style={{
+                          display: 'flex', alignItems: 'center', padding: '1.15rem', borderRadius: '12px',
+                          border: `2px solid ${border}`, background: bg, cursor: questionLocked ? 'default' : 'pointer',
+                          color: textColor, transition: 'all 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
+                          opacity: questionLocked && !selected && !isCorrect ? 0.5 : 1,
+                          boxShadow: selected && !questionLocked ? '0 4px 12px rgba(86, 12, 12, 0.1)' : 'none',
+                          transform: selected && !questionLocked ? 'scale(1.01)' : 'scale(1)'
+                        }}
+                      >
+                        <input
+                          type="radio"
+                          name={`minitest-${qIndex}`}
+                          value={op}
+                          checked={selected}
+                          onChange={() => handleSelect(qIndex, op)}
+                          disabled={questionLocked}
+                          style={{ marginRight: '1rem', transform: 'scale(1.3)', accentColor: 'var(--primary)' }}
+                        />
+                        <span style={{ fontWeight: selected ? 600 : 400, flex: 1 }}>{op}</span>
+                      </label>
+                    )
+                  })}
+                </div>
 
-                 {!questionLocked && answers[qIndex] && (
-                   <div style={{ marginTop: '1.5rem', display: 'flex', justifyContent: 'flex-end' }}>
-                     <button onClick={() => handleCheck(qIndex)} className="btn btn-primary" style={{ padding: '0.6rem 1.5rem', borderRadius: '25px' }}>
-                       Validar Respuesta
-                     </button>
-                   </div>
-                 )}
+                {!questionLocked && answers[qIndex] && (
+                  <div style={{ marginTop: '1.5rem', display: 'flex', justifyContent: 'flex-end' }}>
+                    <button onClick={() => handleCheck(qIndex)} className="btn btn-primary" style={{ padding: '0.6rem 1.5rem', borderRadius: '25px' }}>
+                      Validar Respuesta
+                    </button>
+                  </div>
+                )}
 
-                 {questionLocked && (
-                   <div style={{ 
-                     marginTop: '1.5rem', 
-                     padding: '1rem', 
-                     borderRadius: '10px', 
-                     display: 'flex', 
-                     alignItems: 'center', 
-                     gap: '1rem', 
-                     background: answers[qIndex] === q.respuesta ? '#e6f4ea' : '#fce8e6',
-                     color: answers[qIndex] === q.respuesta ? '#0d5d2a' : '#a52828'
-                   }}>
-                     {answers[qIndex] === q.respuesta ? <CheckCircle size={22} /> : <AlertTriangle size={22} />}
-                     <span style={{ fontWeight: 600, fontSize: '14px' }}>
-                       {answers[qIndex] === q.respuesta ? '¡Excelente! Has captado la esencia del concepto.' : `Inexacto. Referencia correcta: "${q.respuesta}"`}
-                     </span>
-                   </div>
-                 )}
-               </div>
-             )
+                {questionLocked && (
+                  <div style={{
+                    marginTop: '1.5rem',
+                    padding: '1rem',
+                    borderRadius: '10px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '1rem',
+                    background: answers[qIndex] === q.respuesta ? '#e6f4ea' : '#fce8e6',
+                    color: answers[qIndex] === q.respuesta ? '#0d5d2a' : '#a52828'
+                  }}>
+                    {answers[qIndex] === q.respuesta ? <CheckCircle size={22} /> : <AlertTriangle size={22} />}
+                    <span style={{ fontWeight: 600, fontSize: '14px' }}>
+                      {answers[qIndex] === q.respuesta ? '¡Excelente! Has captado la esencia del concepto.' : `Inexacto. Referencia correcta: "${q.respuesta}"`}
+                    </span>
+                  </div>
+                )}
+              </div>
+            )
           })}
         </div>
 
@@ -306,19 +306,19 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
             <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: scorePercentage >= 60 ? 'var(--primary)' : '#842029', marginBottom: '0.5rem' }}>
               Puntuación: {Math.round(scorePercentage)}%
             </h4>
-            
+
             {scorePercentage >= 60 ? (
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem' }}>
                 <p style={{ color: 'var(--text-main)', marginBottom: '0' }}>
                   ¡Excelente! Has superado el 60% requerido. El avance ha sido registrado en tu guía.
                 </p>
-                <Link 
-                  to={parseInt(data.moduloId) < 4 ? `/modulo/${parseInt(data.moduloId) + 1}` : '/evaluacion'} 
+                <Link
+                  to={parseInt(data.moduloId) < 4 ? `/modulo/${parseInt(data.moduloId) + 1}` : '/evaluacion'}
                   className="btn btn-primary"
-                  style={{ 
-                    textDecoration: 'none', 
-                    display: 'inline-flex', 
-                    alignItems: 'center', 
+                  style={{
+                    textDecoration: 'none',
+                    display: 'inline-flex',
+                    alignItems: 'center',
                     gap: '0.75rem',
                     padding: '0.8rem 2rem',
                     marginTop: '0.5rem',
