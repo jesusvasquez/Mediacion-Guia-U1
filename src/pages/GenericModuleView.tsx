@@ -1,5 +1,6 @@
 import { useState, useEffect, Fragment } from 'react';
-import { FileText, CheckCircle, AlertTriangle, ArrowDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { FileText, CheckCircle, AlertTriangle, ArrowDown, ArrowRight } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 
 interface ModuleData {
@@ -307,9 +308,27 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
             </h4>
             
             {scorePercentage >= 60 ? (
-              <p style={{ color: 'var(--text-main)', marginBottom: '0' }}>
-                ¡Excelente! Has superado el 60% requerido. El avance ha sido registrado en tu guía.
-              </p>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem' }}>
+                <p style={{ color: 'var(--text-main)', marginBottom: '0' }}>
+                  ¡Excelente! Has superado el 60% requerido. El avance ha sido registrado en tu guía.
+                </p>
+                <Link 
+                  to={parseInt(data.moduloId) < 4 ? `/modulo/${parseInt(data.moduloId) + 1}` : '/evaluacion'} 
+                  className="btn btn-primary"
+                  style={{ 
+                    textDecoration: 'none', 
+                    display: 'inline-flex', 
+                    alignItems: 'center', 
+                    gap: '0.75rem',
+                    padding: '0.8rem 2rem',
+                    marginTop: '0.5rem',
+                    boxShadow: '0 4px 15px rgba(var(--primary-rgb), 0.3)'
+                  }}
+                >
+                  {parseInt(data.moduloId) < 4 ? 'Continuar al Siguiente Módulo' : 'Ir a la Evaluación Final'}
+                  <ArrowRight size={18} />
+                </Link>
+              </div>
             ) : (
               <>
                 <p style={{ color: '#842029', marginBottom: '1.5rem' }}>
