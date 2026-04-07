@@ -1,0 +1,100 @@
+{
+  "moduloId": "2",
+  "temaPrincipal": "Diseño Universal para el Aprendizaje (DUA)",
+  "descripcionGeneral": "Análisis de los fundamentos neurocientíficos, orígenes arquitectónicos y la aplicación del marco DUA orientado a crear currículos flexibles que atiendan la diversidad en el aula mediante el uso de múltiples medios y tecnologías.",
+  "extractos": [
+    {
+      "id": 1,
+      "titulo": "Origen y Filosofía del DUA",
+      "contenido": "Los autores reflexionan que el DUA nace de la arquitectura para crear entornos accesibles desde el inicio, evitando costosas adaptaciones a posteriori. En educación, esto significa que las barreras para el aprendizaje no son inherentes al alumno, sino que surgen de un currículo y materiales inflexibles y 'discapacitantes'.",
+      "puntosClave": [
+        "Diseño preventivo frente a adaptaciones",
+        "El currículo inflexible como barrera",
+        "Ruptura de la dicotomía con/sin discapacidad"
+      ],
+      "fuente": "Alba_Pastor_DUA.pdf",
+      "color": "var(--primary)"
+    },
+    {
+      "id": 2,
+      "titulo": "Bases Neurocientíficas del Aprendizaje",
+      "contenido": "La diversidad neurológica demuestra que no existen dos cerebros iguales. El aprendizaje se distribuye en tres subredes: Redes de reconocimiento (percibir información), Redes estratégicas (planificar y ejecutar tareas) y Redes afectivas (motivación e implicación emocional).",
+      "puntosClave": [
+        "Redes de reconocimiento (el qué)",
+        "Redes estratégicas (el cómo)",
+        "Redes afectivas (el porqué)"
+      ],
+      "fuente": "Alba_Pastor_DUA.pdf",
+      "color": "var(--secondary)"
+    },
+    {
+      "id": 3,
+      "titulo": "El Papel de los Medios Digitales",
+      "contenido": "A diferencia de los medios tradicionales (habla, texto impreso, imagen), que imponen barreras a ciertos alumnos, los medios digitales poseen una flexibilidad inherente. Destacan por su versatilidad, capacidad de transformación y la posibilidad de conexión (red) para individualizar el aprendizaje.",
+      "puntosClave": [
+        "Versatilidad y transformación",
+        "Reducción de barreras sensoriales",
+        "Personalización y accesibilidad"
+      ],
+      "fuente": "Alba_Pastor_DUA.pdf",
+      "color": "var(--tertiary)"
+    },
+    {
+      "id": 4,
+      "titulo": "Los Tres Principios y Pautas del DUA",
+      "contenido": "Para llevar el DUA a la práctica docente, se plantean tres principios fundamentales: 1) Múltiples formas de representación de la información, 2) Múltiples formas de acción y expresión del aprendizaje, y 3) Múltiples formas de implicación para mantener el esfuerzo y motivación.",
+      "puntosClave": [
+        "Principio I: Representación",
+        "Principio II: Acción y Expresión",
+        "Principio III: Implicación"
+      ],
+      "fuente": "Alba_Pastor_DUA.pdf",
+      "color": "var(--quaternary)"
+    }
+  ],
+  "organizadorPrevio": {
+    "fases": [
+      { 
+        "nombre": "Redes de Reconocimiento", 
+        "descripcion": "Principio I (El QUÉ): Múltiples formas de Representación (Opciones para percibir, entender lenguajes y comprender)." 
+      },
+      { 
+        "nombre": "Redes Estratégicas", 
+        "descripcion": "Principio II (El CÓMO): Múltiples formas de Acción y Expresión (Opciones de interacción física, comunicación y funciones ejecutivas)." 
+      },
+      { 
+        "nombre": "Redes Afectivas", 
+        "descripcion": "Principio III (El PORQUÉ): Múltiples formas de Implicación (Opciones para captar el interés, mantener el esfuerzo y la autorregulación)." 
+      }
+    ]
+  },
+  "miniTest": [
+    {
+      "pregunta": "¿En qué disciplina tiene su origen inicial el concepto de Diseño Universal, antes de ser adoptado por el CAST para el ámbito educativo?",
+      "opciones": [
+        "Psicología Clínica",
+        "Ingeniería de Software",
+        "Arquitectura"
+      ],
+      "respuesta": "Arquitectura"
+    },
+    {
+      "pregunta": "Según la neurociencia aplicada al DUA, ¿qué redes cerebrales están especializadas en asignar significados emocionales y se relacionan directamente con la motivación del alumno?",
+      "opciones": [
+        "Redes Estratégicas",
+        "Redes Afectivas",
+        "Redes de Reconocimiento"
+      ],
+      "respuesta": "Redes Afectivas"
+    },
+    {
+      "pregunta": "El uso de correctores ortográficos, calculadoras o la posibilidad de exponer un trabajo de forma oral o en video en lugar de escrita, corresponde principalmente al Principio del DUA de:",
+      "opciones": [
+        "Proporcionar múltiples formas de implicación.",
+        "Proporcionar múltiples formas de acción y expresión.",
+        "Proporcionar múltiples formas de representación."
+      ],
+      "respuesta": "Proporcionar múltiples formas de acción y expresión."
+    }
+  ]
+}

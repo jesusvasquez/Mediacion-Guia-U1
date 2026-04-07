@@ -1,0 +1,104 @@
+{
+  "moduloId": "1",
+  "temaPrincipal": "Naturaleza y Comprensión del Aprendizaje Significativo",
+  "descripcionGeneral": "Análisis exhaustivo de la teoría de asimilación de David Ausubel, contrastando sus fundamentos psicológicos originales con su integración en el constructivismo moderno mediante el uso de organizadores previos.",
+  "extractos": [
+    {
+      "id": 1,
+      "titulo": "Condiciones del Aprendizaje Significativo (Ausubel)",
+      "contenido": "Para que el aprendizaje no sea repetitivo ni mecánico, se requieren dos condiciones: que el material tenga 'significatividad lógica' (relacionable de manera intencional y no arbitraria) y que el alumno posea una 'actitud o disposición' activa para anclarlo en su estructura cognitiva previa.",
+      "puntosClave": [
+        "Significado lógico del material",
+        "Disposición psicológica del aprendiz",
+        "Conexión no arbitraria ni literal"
+      ],
+      "fuente": "Ausubel_Psicologia_Educativa.pdf",
+      "color": "var(--primary)"
+    },
+    {
+      "id": 2,
+      "titulo": "Tipos de Aprendizaje Significativo (Ausubel)",
+      "contenido": "Ausubel reflexiona que el conocimiento no es homogéneo. Distingue tres tipos: 1) Representaciones (asignar significado a símbolos unitarios/vocabulario), 2) Conceptos (ideas genéricas y atributos de criterio), y 3) Proposiciones (captar el significado de nuevas ideas compuestas o frases completas).",
+      "puntosClave": [
+        "Aprendizaje de representaciones",
+        "Aprendizaje de conceptos",
+        "Aprendizaje de proposiciones"
+      ],
+      "fuente": "Ausubel_Psicologia_Educativa.pdf",
+      "color": "var(--secondary)"
+    },
+    {
+      "id": 3,
+      "titulo": "El Enfoque Constructivista y el Rol Docente (Yépez)",
+      "contenido": "Yépez subraya que el aprendizaje nunca inicia desde cero. Desde el constructivismo, el alumno es un sujeto activo que reconstruye saberes, mientras que el docente actúa como mediador que debe adecuar sus métodos a la diversidad y complejidad de la estructura cognitiva inicial del grupo.",
+      "puntosClave": [
+        "Estudiante como constructor activo",
+        "Docente como mediador",
+        "Diversidad de ritmos de aprendizaje"
+      ],
+      "fuente": "Yepez_Aprendizaje_Significativo.pdf",
+      "color": "var(--tertiary)"
+    },
+    {
+      "id": 4,
+      "titulo": "Organizadores Previos y Mapas Conceptuales (Yépez)",
+      "contenido": "La reflexión central de la aplicación práctica recae en los 'puentes cognitivos'. Los mapas conceptuales, derivados de la teoría ausubeliana, sirven como organizadores previos que enlazan el conocimiento menos elaborado del estudiante con la nueva información, promoviendo el análisis y la reflexión.",
+      "puntosClave": [
+        "Puentes cognitivos",
+        "Mapas conceptuales",
+        "Enseñanza receptiva significativa"
+      ],
+      "fuente": "Yepez_Aprendizaje_Significativo.pdf",
+      "color": "var(--quaternary)"
+    }
+  ],
+  "organizadorPrevio": {
+    "fases": [
+      { 
+        "nombre": "1. Exploración Diagnóstica", 
+        "descripcion": "Identificación de la estructura cognitiva, experiencias y conocimientos previos idiosincráticos del educando." 
+      },
+      { 
+        "nombre": "2. Construcción del Puente Cognitivo", 
+        "descripcion": "Intervención del docente mediador utilizando organizadores previos (ej. mapas conceptuales) para preparar el andamiaje." 
+      },
+      { 
+        "nombre": "3. Presentación del Material Lógico", 
+        "descripcion": "Introducción de los nuevos contenidos curriculares con significatividad lógica (relacionables de modo no arbitrario)." 
+      },
+      { 
+        "nombre": "4. Asimilación Psicológica", 
+        "descripcion": "El alumno interactúa con el material, modificando y reestructurando sus conceptos previos hacia un conocimiento más complejo." 
+      }
+    ]
+  },
+  "miniTest": [
+    {
+      "pregunta": "Según Ausubel, ¿qué tipo de aprendizaje significativo consiste en captar el significado de ideas compuestas expresadas en forma de oración, las cuales son más que la suma de sus palabras individuales?",
+      "opciones": [
+        "Aprendizaje de representaciones",
+        "Aprendizaje de conceptos",
+        "Aprendizaje de proposiciones"
+      ],
+      "respuesta": "Aprendizaje de proposiciones"
+    },
+    {
+      "pregunta": "De acuerdo con el análisis de Yépez, ¿cuál es la función principal de los 'organizadores previos' en el aula constructivista?",
+      "opciones": [
+        "Fomentar la memorización al pie de la letra para evaluaciones sumativas.",
+        "Servir como puentes cognitivos para pasar de un conocimiento menos elaborado a uno más complejo.",
+        "Garantizar que el aprendizaje se logre exclusivamente mediante el descubrimiento autónomo."
+      ],
+      "respuesta": "Servir como puentes cognitivos para pasar de un conocimiento menos elaborado a uno más complejo."
+    },
+    {
+      "pregunta": "¿Qué diferencia fundamental establece Ausubel entre el 'significado lógico' y el 'significado psicológico'?",
+      "opciones": [
+        "El lógico es inherente a la naturaleza del material de estudio, mientras que el psicológico es el contenido real y diferenciado que el individuo incorpora en su mente.",
+        "El lógico se refiere a las emociones del estudiante, mientras que el psicológico se refiere a las matemáticas y fórmulas.",
+        "No existe ninguna diferencia; ambos términos son sinónimos en la teoría del aprendizaje por repetición."
+      ],
+      "respuesta": "El lógico es inherente a la naturaleza del material de estudio, mientras que el psicológico es el contenido real y diferenciado que el individuo incorpora en su mente."
+    }
+  ]
+}

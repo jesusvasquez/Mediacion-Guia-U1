@@ -1,0 +1,763 @@
+{
+  "curso": "La Mediación Pedagógica y Estrategias de Trabajo Docente",
+  "unidad": 1,
+  "total_reactivos": 60,
+  "catalogo": [
+    {
+      "id": 1,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Cuál es el factor más importante que influye en el aprendizaje según David Ausubel?",
+      "opciones": [
+        "El coeficiente intelectual del estudiante",
+        "Lo que el alumno ya sabe",
+        "El uso de tecnología de punta"
+      ],
+      "respuesta_correcta": "Lo que el alumno ya sabe",
+      "referencia": ""
+    },
+    {
+      "id": 2,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué característica define la relación de nuevos conocimientos en el aprendizaje significativo?",
+      "opciones": [
+        "Arbitraria y al pie de la letra",
+        "No arbitraria y sustancial",
+        "Temporal y fragmentaria"
+      ],
+      "respuesta_correcta": "No arbitraria y sustancial",
+      "referencia": ""
+    },
+    {
+      "id": 3,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Cómo se denomina al proceso de vinculación entre la nueva información y las ideas previas?",
+      "opciones": [
+        "Asimilación mecánica",
+        "Anclaje",
+        "Memorización"
+      ],
+      "respuesta_correcta": "Anclaje",
+      "referencia": ""
+    },
+    {
+      "id": 4,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué tipo de significado depende exclusivamente de la naturaleza del material de aprendizaje?",
+      "opciones": [
+        "Significado lógico",
+        "Significado psicológico",
+        "Significado fenomenológico"
+      ],
+      "respuesta_correcta": "Significado lógico",
+      "referencia": ""
+    },
+    {
+      "id": 5,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "Para que ocurra el aprendizaje significativo, ¿qué condición debe cumplir el alumno?",
+      "opciones": [
+        "Poseer un CI superior a la media",
+        "Manifestar una actitud de aprendizaje significativo",
+        "Seguir instrucciones al pie de la letra"
+      ],
+      "respuesta_correcta": "Manifestar una actitud de aprendizaje significativo",
+      "referencia": ""
+    },
+    {
+      "id": 6,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Cuál es la función de los organizadores previos?",
+      "opciones": [
+        "Evaluar la conducta al final de la clase",
+        "Servir como puentes cognitivos entre lo que se sabe y lo nuevo",
+        "Dictar el contenido que se debe memorizar"
+      ],
+      "respuesta_correcta": "Servir como puentes cognitivos entre lo que se sabe y lo nuevo",
+      "referencia": ""
+    },
+    {
+      "id": 7,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué tipo de aprendizaje se ocupa de los significados de símbolos unitarios?",
+      "opciones": [
+        "Aprendizaje de representaciones",
+        "Aprendizaje de proposiciones",
+        "Aprendizaje de conceptos"
+      ],
+      "respuesta_correcta": "Aprendizaje de representaciones",
+      "referencia": ""
+    },
+    {
+      "id": 8,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué sucede con las tareas de aprendizaje por repetición?",
+      "opciones": [
+        "Son altamente resistentes a la interferencia",
+        "Son vulnerables a la interferencia y se retienen por poco tiempo",
+        "Generan estructuras cognitivas permanentes"
+      ],
+      "respuesta_correcta": "Son vulnerables a la interferencia y se retienen por poco tiempo",
+      "referencia": ""
+    },
+    {
+      "id": 9,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "El aprendizaje de conceptos se refiere a:",
+      "opciones": [
+        "Aprender nombres propios de personas",
+        "Ideas genéricas unitarias o categoriales",
+        "Memorizar números telefónicos"
+      ],
+      "respuesta_correcta": "Ideas genéricas unitarias o categoriales",
+      "referencia": ""
+    },
+    {
+      "id": 10,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué autor le da un carácter humanista al aprendizaje significativo al considerar la influencia emocional?",
+      "opciones": [
+        "Piaget",
+        "Novak",
+        "Vygotsky"
+      ],
+      "respuesta_correcta": "Novak",
+      "referencia": ""
+    },
+    {
+      "id": 11,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿En qué consiste el aprendizaje por recepción?",
+      "opciones": [
+        "El alumno descubre el contenido por sí mismo",
+        "El alumno recibe el contenido en su forma final acabada",
+        "Es un proceso exclusivamente memorístico y arbitrario"
+      ],
+      "respuesta_correcta": "El alumno recibe el contenido en su forma final acabada",
+      "referencia": ""
+    },
+    {
+      "id": 12,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué requisito es ineludible para que los materiales sean potencialmente significativos?",
+      "opciones": [
+        "Deben ser impresos en color",
+        "Deben ser relacionables de forma no arbitraria con estructuras específicas",
+        "Deben ser breves y sin imágenes"
+      ],
+      "respuesta_correcta": "Deben ser relacionables de forma no arbitraria con estructuras específicas",
+      "referencia": ""
+    },
+    {
+      "id": 13,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué técnica ayuda a desarrollar estrategias metacognitivas y explorar conocimientos previos?",
+      "opciones": [
+        "Exámenes de opción múltiple",
+        "Mapas conceptuales",
+        "Lectura en voz alta"
+      ],
+      "respuesta_correcta": "Mapas conceptuales",
+      "referencia": ""
+    },
+    {
+      "id": 14,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué es la estructura cognitiva?",
+      "opciones": [
+        "El edificio físico de la escuela",
+        "Conjunto de conceptos e ideas de un individuo en un campo determinado",
+        "La planificación docente del ciclo escolar"
+      ],
+      "respuesta_correcta": "Conjunto de conceptos e ideas de un individuo en un campo determinado",
+      "referencia": ""
+    },
+    {
+      "id": 15,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "Según el constructivismo exógeno, el conocimiento es:",
+      "opciones": [
+        "La reconstrucción de las estructuras del mundo externo",
+        "Producto exclusivo de la actividad interna de la mente",
+        "Resultado de contradicciones internas"
+      ],
+      "respuesta_correcta": "La reconstrucción de las estructuras del mundo externo",
+      "referencia": ""
+    },
+    {
+      "id": 16,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué tipo de aprendizaje es básico y necesario para el aprendizaje de proposiciones verbales?",
+      "opciones": [
+        "Aprendizaje de representaciones",
+        "Aprendizaje mecánico",
+        "Aprendizaje por descubrimiento"
+      ],
+      "respuesta_correcta": "Aprendizaje de representaciones",
+      "referencia": ""
+    },
+    {
+      "id": 17,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué significa que la relacionabilidad sea sustancial?",
+      "opciones": [
+        "Que se debe aprender al pie de la letra",
+        "Que un símbolo equivalente puede relacionarse sin cambiar el significado",
+        "Que el material debe ser costoso"
+      ],
+      "respuesta_correcta": "Que un símbolo equivalente puede relacionarse sin cambiar el significado",
+      "referencia": ""
+    },
+    {
+      "id": 18,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "En el aula universitaria, ¿cómo se logra la eficiencia y eficacia pedagógica según Montenegro?",
+      "opciones": [
+        "Mediante exámenes sorpresa",
+        "Mediante el aprendizaje significativo",
+        "Aumentando la carga horaria"
+      ],
+      "respuesta_correcta": "Mediante el aprendizaje significativo",
+      "referencia": ""
+    },
+    {
+      "id": 19,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Cuál es la unidad de análisis del constructivismo en el aula?",
+      "opciones": [
+        "La nota del examen final",
+        "La acción del individuo a través de herramientas y mediación",
+        "El número de libros en la biblioteca"
+      ],
+      "respuesta_correcta": "La acción del individuo a través de herramientas y mediación",
+      "referencia": ""
+    },
+    {
+      "id": 20,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "Según Ausubel, ¿por qué los alumnos desarrollan a menudo propensión al aprendizaje repetitivo?",
+      "opciones": [
+        "Porque es más fácil y divertido",
+        "Por altos niveles de ansiedad o falta de confianza en sus capacidades",
+        "Porque no tienen acceso a internet"
+      ],
+      "respuesta_correcta": "Por altos niveles de ansiedad o falta de confianza en sus capacidades",
+      "referencia": ""
+    },
+    {
+      "id": 21,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿En qué campo surgió originalmente el concepto de Diseño Universal?",
+      "opciones": [
+        "Psicopedagogía",
+        "Arquitectura",
+        "Informática"
+      ],
+      "respuesta_correcta": "Arquitectura",
+      "referencia": ""
+    },
+    {
+      "id": 22,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Cuál es el objetivo principal del DUA según el CAST?",
+      "opciones": [
+        "Crear materiales específicos solo para alumnos con discapacidad",
+        "Dotar de flexibilidad al currículo, medios y materiales",
+        "Sustituir al docente por medios digitales"
+      ],
+      "respuesta_correcta": "Dotar de flexibilidad al currículo, medios y materiales",
+      "referencia": ""
+    },
+    {
+      "id": 23,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué redes cerebrales están especializadas en percibir la información y asignarles significados?",
+      "opciones": [
+        "Redes estratégicas",
+        "Redes afectivas",
+        "Redes de reconocimiento"
+      ],
+      "respuesta_correcta": "Redes de reconocimiento",
+      "referencia": ""
+    },
+    {
+      "id": 24,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué redes cerebrales se encargan de planificar, ejecutar y monitorizar tareas?",
+      "opciones": [
+        "Redes de reconocimiento",
+        "Redes estratégicas",
+        "Redes afectivas"
+      ],
+      "respuesta_correcta": "Redes estratégicas",
+      "referencia": ""
+    },
+    {
+      "id": 25,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué principio del DUA se asocia con el 'porqué' del aprendizaje?",
+      "opciones": [
+        "Principio I: Formas de representación",
+        "Principio II: Formas de acción y expresión",
+        "Principio III: Formas de implicación"
+      ],
+      "respuesta_correcta": "Principio III: Formas de implicación",
+      "referencia": ""
+    },
+    {
+      "id": 26,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué implicación tiene el hallazgo de que el DU beneficia a todos?",
+      "opciones": [
+        "Que la diversidad es la norma y no la excepción",
+        "Que las rampas solo deben ser usadas por sillas de ruedas",
+        "Que los diseños deben ser más costosos"
+      ],
+      "respuesta_correcta": "Que la diversidad es la norma y no la excepción",
+      "referencia": ""
+    },
+    {
+      "id": 27,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "Según el DUA, ¿dónde residen principalmente las barreras para el aprendizaje?",
+      "opciones": [
+        "En las capacidades de los estudiantes",
+        "En la interacción con métodos y materiales inflexibles",
+        "En la falta de motivación familiar"
+      ],
+      "respuesta_correcta": "En la interacción con métodos y materiales inflexibles",
+      "referencia": ""
+    },
+    {
+      "id": 28,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Cuál es una limitación importante del habla como medio tradicional?",
+      "opciones": [
+        "Su transitoriedad: lo oído se olvida rápidamente",
+        "Su falta de poder expresivo",
+        "Que no permite interactuar con la audiencia"
+      ],
+      "respuesta_correcta": "Su transitoriedad: lo oído se olvida rápidamente",
+      "referencia": ""
+    },
+    {
+      "id": 29,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué ventaja ofrecen los medios digitales frente a los tradicionales?",
+      "opciones": [
+        "Son permanentes e inalterables",
+        "Tienen capacidad de transformación y versatilidad",
+        "Requieren menos esfuerzo del docente"
+      ],
+      "respuesta_correcta": "Tienen capacidad de transformación y versatilidad",
+      "referencia": ""
+    },
+    {
+      "id": 30,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué principio del DUA propone proporcionar múltiples formas de representación?",
+      "opciones": [
+        "Principio I",
+        "Principio II",
+        "Principio III"
+      ],
+      "respuesta_correcta": "Principio I",
+      "referencia": ""
+    },
+    {
+      "id": 31,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Cuál es una pauta para proporcionar opciones para la percepción?",
+      "opciones": [
+        "Ofrecer alternativas para la información auditiva y visual",
+        "Limitar el uso de subtítulos",
+        "Usar solo texto impreso en blanco y negro"
+      ],
+      "respuesta_correcta": "Ofrecer alternativas para la información auditiva y visual",
+      "referencia": ""
+    },
+    {
+      "id": 32,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué pauta busca proporcionar opciones para las funciones ejecutivas?",
+      "opciones": [
+        "Pauta 6",
+        "Pauta 1",
+        "Pauta 9"
+      ],
+      "respuesta_correcta": "Pauta 6",
+      "referencia": ""
+    },
+    {
+      "id": 33,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué área del cerebro está asociada con las funciones ejecutivas?",
+      "opciones": [
+        "Córtex prefrontal",
+        "Cerebelo",
+        "Hipocampo"
+      ],
+      "respuesta_correcta": "Córtex prefrontal",
+      "referencia": ""
+    },
+    {
+      "id": 34,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué pauta recomienda optimizar la elección individual y la autonomía?",
+      "opciones": [
+        "Pauta 7",
+        "Pauta 4",
+        "Pauta 2"
+      ],
+      "respuesta_correcta": "Pauta 7",
+      "referencia": ""
+    },
+    {
+      "id": 35,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "Según el DUA, un currículo es 'discapacitante' cuando:",
+      "opciones": [
+        "No incluye tecnología",
+        "No permite que todo el alumnado pueda acceder a él",
+        "Es demasiado extenso"
+      ],
+      "respuesta_correcta": "No permite que todo el alumnado pueda acceder a él",
+      "referencia": ""
+    },
+    {
+      "id": 36,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué teoría menciona el DUA respecto a la reducción de barreras?",
+      "opciones": [
+        "Teoría de las inteligencias múltiples de Gardner",
+        "Teoría del conductismo operante",
+        "Teoría de la relatividad"
+      ],
+      "respuesta_correcta": "Teoría de las inteligencias múltiples de Gardner",
+      "referencia": ""
+    },
+    {
+      "id": 37,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Cómo se pueden ilustrar las ideas principales según el Principio I?",
+      "opciones": [
+        "Únicamente con texto",
+        "A través de múltiples medios (imágenes, tablas, video, etc.)",
+        "Mediante la repetición oral"
+      ],
+      "respuesta_correcta": "A través de múltiples medios (imágenes, tablas, video, etc.)",
+      "referencia": ""
+    },
+    {
+      "id": 38,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Cuál es el fin de proporcionar múltiples medios físicos de acción?",
+      "opciones": [
+        "Asegurar que los alumnos permanezcan sentados",
+        "Proporcionar varios métodos de respuesta e interacción",
+        "Reducir el tiempo de recreo"
+      ],
+      "respuesta_correcta": "Proporcionar varios métodos de respuesta e interacción",
+      "referencia": ""
+    },
+    {
+      "id": 39,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué pauta se enfoca en proporcionar opciones para la autorregulación?",
+      "opciones": [
+        "Pauta 9",
+        "Pauta 3",
+        "Pauta 5"
+      ],
+      "respuesta_correcta": "Pauta 9",
+      "referencia": ""
+    },
+    {
+      "id": 40,
+      "tema": "Diseño Universal para el Aprendizaje (DUA)",
+      "pregunta": "¿Qué ventaja tiene poner los contenidos en red (hipervínculos)?",
+      "opciones": [
+        "Obliga al alumno a distraerse",
+        "Permite relacionar contenidos y enriquecer el aprendizaje",
+        "Hace que el material sea más pesado"
+      ],
+      "respuesta_correcta": "Permite relacionar contenidos y enriquecer el aprendizaje",
+      "referencia": ""
+    },
+    {
+      "id": 41,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué es la mediación pedagógica según Gutiérrez?",
+      "opciones": [
+        "Dictar contenidos de forma lineal",
+        "Acción capaz de promover y acompañar el aprendizaje sin invadir ni abandonar",
+        "Un simple recurso didáctico electrónico"
+      ],
+      "respuesta_correcta": "Acción capaz de promover y acompañar el aprendizaje sin invadir ni abandonar",
+      "referencia": ""
+    },
+    {
+      "id": 42,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Cuál es uno de los tres criterios fundamentales de la Experiencia de Aprendizaje Mediado (EAM)?",
+      "opciones": [
+        "Memorización",
+        "Trascendencia",
+        "Competición"
+      ],
+      "respuesta_correcta": "Trascendencia",
+      "referencia": ""
+    },
+    {
+      "id": 43,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿En qué consiste el criterio de Intencionalidad en la mediación?",
+      "opciones": [
+        "En dejar que el niño aprenda solo",
+        "En producir un estado de vigilia y reciprocidad en el niño",
+        "En evaluar solo el resultado final"
+      ],
+      "respuesta_correcta": "En producir un estado de vigilia y reciprocidad en el niño",
+      "referencia": ""
+    },
+    {
+      "id": 44,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué postula la Teoría de la Modificabilidad Cognoscitiva Estructural (TMCE)?",
+      "opciones": [
+        "Que la inteligencia es inmutable y fija",
+        "Que el organismo es un sistema abierto al cambio y modificable",
+        "Que los daños ambientales son irreversibles"
+      ],
+      "respuesta_correcta": "Que el organismo es un sistema abierto al cambio y modificable",
+      "referencia": ""
+    },
+    {
+      "id": 45,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué es un mediador según Vygotsky/Bodrova?",
+      "opciones": [
+        "Un juez que califica el comportamiento",
+        "Algo que sirve como intermediario entre un estímulo y la respuesta",
+        "Un obstáculo para el desempeño independiente"
+      ],
+      "respuesta_correcta": "Algo que sirve como intermediario entre un estímulo y la respuesta",
+      "referencia": ""
+    },
+    {
+      "id": 46,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Cuál es la meta final de usar mediadores exteriores (andamios)?",
+      "opciones": [
+        "Que el niño dependa siempre del maestro",
+        "Que el niño los interiorice y logre el desempeño independiente",
+        "Aumentar la cantidad de material en el aula"
+      ],
+      "respuesta_correcta": "Que el niño los interiorice y logre el desempeño independiente",
+      "referencia": ""
+    },
+    {
+      "id": 47,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué operación mental consiste en agrupar objetos según la clase a la que pertenecen?",
+      "opciones": [
+        "Análisis",
+        "Clasificación",
+        "Codificación"
+      ],
+      "respuesta_correcta": "Clasificación",
+      "referencia": ""
+    },
+    {
+      "id": 48,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué determinante es responsable de la modificabilidad típica de un individuo?",
+      "opciones": [
+        "Determinante distal (genética)",
+        "Determinante proximal (Experiencia de Aprendizaje Mediado)",
+        "Determinante económico"
+      ],
+      "respuesta_correcta": "Determinante proximal (Experiencia de Aprendizaje Mediado)",
+      "referencia": ""
+    },
+    {
+      "id": 49,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué componente de la mediación permite el uso pedagógico de medios y herramientas?",
+      "opciones": [
+        "Componente filosófico",
+        "Componente tecnológico",
+        "Componente político"
+      ],
+      "respuesta_correcta": "Componente tecnológico",
+      "referencia": ""
+    },
+    {
+      "id": 50,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "La mediación estética busca que la educación sea:",
+      "opciones": [
+        "Una experiencia sensible, emotiva y revitalizante",
+        "Un proceso rígido de disciplina",
+        "Basada únicamente en la utilidad económica"
+      ],
+      "respuesta_correcta": "Una experiencia sensible, emotiva y revitalizante",
+      "referencia": ""
+    },
+    {
+      "id": 51,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué fase del acto mental incluye la percepción clara y el comportamiento exploratorio?",
+      "opciones": [
+        "Fase de entrada",
+        "Fase de elaboración",
+        "Fase de salida"
+      ],
+      "respuesta_correcta": "Fase de entrada",
+      "referencia": ""
+    },
+    {
+      "id": 52,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué función cognitiva se refiere a la capacidad de situarse en el rol del otro?",
+      "opciones": [
+        "Comunicación descentralizada",
+        "Transporte visual",
+        "Conducta sumativa"
+      ],
+      "respuesta_correcta": "Comunicación descentralizada",
+      "referencia": ""
+    },
+    {
+      "id": 53,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué significa que la educación esté orientada hacia fases futuras del desarrollo?",
+      "opciones": [
+        "Enfocarse solo en lo que el niño ya no puede hacer",
+        "Prevención y aceleración del desarrollo",
+        "Gratificación inmediata y directa"
+      ],
+      "respuesta_correcta": "Prevención y aceleración del desarrollo",
+      "referencia": ""
+    },
+    {
+      "id": 54,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué autor define la inteligencia como la plasticidad que conduce a la expansión ilimitada de esquemas?",
+      "opciones": [
+        "Ausubel",
+        "Feuerstein",
+        "Vygotsky"
+      ],
+      "respuesta_correcta": "Feuerstein",
+      "referencia": ""
+    },
+    {
+      "id": 55,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Cuál es un ejemplo de mediador tangible para regular conductas sociales?",
+      "opciones": [
+        "Una 'pulsera de la paz' para recordar resolver diferencias con palabras",
+        "Un examen de comportamiento",
+        "Una nota en el expediente"
+      ],
+      "respuesta_correcta": "Una 'pulsera de la paz' para recordar resolver diferencias con palabras",
+      "referencia": ""
+    },
+    {
+      "id": 56,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "En la retroalimentación, ¿qué característica la hace útil según Cortez?",
+      "opciones": [
+        "Que sea general y abstracta",
+        "Que sea específica, práctica y enfocada en la mejora",
+        "Que sea punitiva"
+      ],
+      "respuesta_correcta": "Que sea específica, práctica y enfocada en la mejora",
+      "referencia": ""
+    },
+    {
+      "id": 57,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué criterio de mediación ayuda a crear una imagen positiva de sí mismo en el alumno?",
+      "opciones": [
+        "Sentimiento de competencia",
+        "Trascendencia",
+        "Individualidad"
+      ],
+      "respuesta_correcta": "Sentimiento de competencia",
+      "referencia": ""
+    },
+    {
+      "id": 58,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Cuál es una función general del mediador respecto a los estímulos?",
+      "opciones": [
+        "Permitir que aparezcan al azar",
+        "Filtrar, seleccionar y organizar los estímulos",
+        "Ignorar los estímulos ambientales"
+      ],
+      "respuesta_correcta": "Filtrar, seleccionar y organizar los estímulos",
+      "referencia": ""
+    },
+    {
+      "id": 59,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "La 'Zona de Desarrollo Próximo' es fundamental para:",
+      "opciones": [
+        "Elegir un mediador que el niño ya domine totalmente",
+        "Situar la intervención donde el niño puede actuar con apoyo",
+        "Evaluar solo el desarrollo actual"
+      ],
+      "respuesta_correcta": "Situar la intervención donde el niño puede actuar con apoyo",
+      "referencia": ""
+    },
+    {
+      "id": 60,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué aspecto de la mediación humaniza la transmisión cultural según Tebar?",
+      "opciones": [
+        "El uso de castigos ejemplares",
+        "La interposición del mediador entre el estímulo y el sujeto para interpretarlo",
+        "La memorización de fechas históricas"
+      ],
+      "respuesta_correcta": "La interposición del mediador entre el estímulo y el sujeto para interpretarlo",
+      "referencia": ""
+    },
+    {
+      "id": 61,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Según Torres (2023), ¿qué implica para el docente constituirse en un mediador pedagógico?",
+      "opciones": [
+        "Interpellar la tradición de sus prácticas pedagógicas",
+        "Seguir estrictamente el libro de texto",
+        "Aumentar la carga de tareas administrativas"
+      ],
+      "respuesta_correcta": "Interpellar la tradición de sus prácticas pedagógicas",
+      "referencia": ""
+    },
+    {
+      "id": 62,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué función cumple el mediador al interponerse entre el sujeto y el estímulo exterior?",
+      "opciones": [
+        "Bloquear la información irrelevante",
+        "Interpretar y valorar el estímulo para agrandar el campo de comprensión",
+        "Sustituir la opinión del alumno por la propia"
+      ],
+      "respuesta_correcta": "Interpretar y valorar el estímulo para agrandar el campo de comprensión",
+      "referencia": ""
+    },
+    {
+      "id": 63,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "De acuerdo con Torres y Tebar, ¿en qué consiste el criterio de trascendencia?",
+      "opciones": [
+        "En memorizar contenidos históricos",
+        "En proyectar y anticipar el futuro, agrandando el sistema de necesidades del alumno",
+        "En terminar el programa sintético a tiempo"
+      ],
+      "respuesta_correcta": "En proyectar y anticipar el futuro, agrandando el sistema de necesidades del alumno",
+      "referencia": ""
+    }
+  ]
+}

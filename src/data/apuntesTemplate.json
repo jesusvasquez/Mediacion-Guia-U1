@@ -1,0 +1,45 @@
+{
+  "moduloId": "1",
+  "temaPrincipal": "Aprendizaje Significativo",
+  "descripcionGeneral": "Fundamentos de la teoría de la asimilación y el anclaje cognitivo.",
+  "extractos": [
+    {
+      "id": 1,
+      "titulo": "Ideas Ancla (Subsunsores)",
+      "contenido": "El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe. Los subsunsores son conceptos previamente adquiridos que sirven de base para integrar nueva información.",
+      "puntosClave": [
+        "Preexistencia de conceptos",
+        "Anclaje de información",
+        "Subsunción específica"
+      ],
+      "fuente": "Ausubel_Psicologia_Educativa.pdf",
+      "color": "var(--primary)"
+    },
+    {
+      "id": 2,
+      "titulo": "Significatividad Psicológica",
+      "contenido": "No basta con que el material sea lógico; el aprendiz debe tener una disposición activa para relacionar el nuevo material con su estructura cognitiva previa de manera no arbitraria.",
+      "puntosClave": [
+        "Disposición del aprendiz",
+        "Conexión no arbitraria",
+        "Motivación intrínseca"
+      ],
+      "fuente": "Yepez_Aprendizaje_Significativo.pdf",
+      "color": "var(--secondary)"
+    }
+  ],
+  "organizadorPrevio": {
+    "fases": [
+      { "nombre": "Estructura Cognitiva", "descripcion": "Conocimientos previos" },
+      { "nombre": "Puente Cognitivo", "descripcion": "Organizador previo" },
+      { "nombre": "Aprendizaje Significativo", "descripcion": "Nueva estructura robusta" }
+    ]
+  },
+  "miniTest": [
+    {
+      "pregunta": "¿Qué nombre reciben los conceptos base en la estructura cognitiva?",
+      "opciones": ["Subsunsores", "Memorizadores", "Interferencias"],
+      "respuesta": "Subsunsores"
+    }
+  ]
+}

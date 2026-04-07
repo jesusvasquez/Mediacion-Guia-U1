@@ -1,0 +1,138 @@
+{
+  "moduloId": "3",
+  "temaPrincipal": "La Mediación Pedagógica",
+  "descripcionGeneral": "Análisis integral de la mediación pedagógica desde su dimensión estética y humanizante, integrando el uso de mediadores externos socioconstructivistas, la Teoría de la Modificabilidad Cognoscitiva de Feuerstein y la implementación de estrategias didácticas para consolidar el aprendizaje significativo.",
+  "extractos": [
+    {
+      "id": 1,
+      "titulo": "Dimensión Estética y Humanizante de la Educación",
+      "contenido": "Los autores reflexionan que la mediación pedagógica debe quebrar el modelo transmisionista y mecanicista. Es un acto creador y estético que propicia el desarrollo integral, la emancipación y la conexión armónica humano-mundo, cargando de sentido y bienestar la experiencia formativa.",
+      "puntosClave": [
+        "Educación como experiencia estética vital",
+        "Superación del modelo transmisionista",
+        "Formación humanizada e interconectada"
+      ],
+      "fuente": "Alzate_Mediacion_Pedagogica.pdf",
+      "color": "var(--primary)"
+    },
+    {
+      "id": 2,
+      "titulo": "El Docente como Mediador (Criterios de Tebar)",
+      "contenido": "Alfonso Torres destaca que mediar es tender puentes entre lo que se sabe y lo que se desconoce. Requiere interpelar la práctica tradicional, asumiendo los tres criterios esenciales: intencionalidad, trascendencia y significación, integrando el saber, el saber-hacer y el ser.",
+      "puntosClave": [
+        "Tender puentes cognitivos",
+        "Interpelación de prácticas tradicionales",
+        "Intencionalidad, trascendencia y significación"
+      ],
+      "fuente": "Torres_Mediacion_Pedagogica_2023.pdf",
+      "color": "var(--secondary)"
+    },
+    {
+      "id": 3,
+      "titulo": "Mediadores Exteriores (Perspectiva Vygotskiana)",
+      "contenido": "Los mediadores (verbales, visuales o físicos) funcionan como andamios temporales dentro de la Zona de Desarrollo Próximo (ZDP). La reflexión central radica en que ayudan al niño a transitar del desempeño asistido al independiente, facilitando la memoria, atención y autorregulación.",
+      "puntosClave": [
+        "Mediadores como andamios temporales",
+        "Zona de Desarrollo Próximo (ZDP)",
+        "Interiorización y autorregulación"
+      ],
+      "fuente": "Bodrova_Uso_de_Mediadores.pdf",
+      "color": "var(--tertiary)"
+    },
+    {
+      "id": 4,
+      "titulo": "Experiencia de Aprendizaje Mediado (Feuerstein)",
+      "contenido": "La Teoría de la Modificabilidad Cognoscitiva Estructural defiende que el ser humano es un sistema abierto al cambio. Feuerstein reflexiona que la carencia de inteligencia no es inmutable, sino producto de la falta de interacción mediada, la cual puede revertirse si el mediador transforma y organiza los estímulos.",
+      "puntosClave": [
+        "Modificabilidad Cognoscitiva Estructural",
+        "Filtro y organización de estímulos",
+        "Plasticidad e inteligencia dinámica"
+      ],
+      "fuente": "Gomez_Feuerstein_Mediacion.pdf",
+      "color": "var(--quaternary)"
+    },
+    {
+      "id": 5,
+      "titulo": "Estrategias Didácticas y Aprendizaje Significativo",
+      "contenido": "Reyes García concluye que la mediación no está completa sin estrategias didácticas (actividades, tareas, procedimientos) que trasladen el protagonismo al alumno. El verdadero aprendizaje significativo parte de los conocimientos previos y se fortalece promoviendo el pensamiento crítico, evitando la simple entrega de información (fotocopias).",
+      "puntosClave": [
+        "Cambio de paradigma docente",
+        "Anclaje en saberes previos",
+        "Estrategias constructivistas activas"
+      ],
+      "fuente": "Reyes_Estrategias_Mediacion.pdf",
+      "color": "var(--quinary)"
+    }
+  ],
+  "organizadorPrevio": {
+    "fases": [
+      {
+        "nombre": "1. Diagnóstico y Estructura Cognitiva",
+        "descripcion": "Identificación de saberes previos, determinantes socioculturales y potencial de modificabilidad del alumno."
+      },
+      {
+        "nombre": "2. Diseño de la Intervención",
+        "descripcion": "Selección intencionada de estrategias didácticas, andamios y mediadores externos (visuales, verbales o físicos)."
+      },
+      {
+        "nombre": "3. Experiencia de Aprendizaje Mediado",
+        "descripcion": "El docente interpone un filtro entre el estímulo y el alumno, aplicando intencionalidad, significado y trascendencia."
+      },
+      {
+        "nombre": "4. Interiorización y Autorregulación",
+        "descripcion": "Retiro progresivo de los andamios temporales; el estudiante asume el control de sus procesos mentales superiores."
+      },
+      {
+        "nombre": "5. Aprendizaje Significativo y Emancipador",
+        "descripcion": "Creación de nuevas redes de conocimiento vitales y estéticas, transformando la estructura cognitiva de manera permanente."
+      }
+    ]
+  },
+  "miniTest": [
+    {
+      "pregunta": "Según Reuven Feuerstein, ¿qué premisa fundamental sostiene la Teoría de la Modificabilidad Cognoscitiva Estructural?",
+      "opciones": [
+        "El desarrollo cognitivo está predeterminado genéticamente y los daños ambientales son irreversibles tras la infancia.",
+        "La inteligencia es un proceso dinámico de autorregulación y el organismo es un sistema abierto capaz de cambiar estructuralmente mediante un mediador.",
+        "El aprendizaje sólo puede ocurrir mediante la exposición directa y no planificada a los estímulos del entorno."
+      ],
+      "respuesta": "La inteligencia es un proceso dinámico de autorregulación y el organismo es un sistema abierto capaz de cambiar estructuralmente mediante un mediador."
+    },
+    {
+      "pregunta": "En la teoría de Vygotsky descrita en las lecturas, ¿cuál es el propósito principal de utilizar un 'mediador exterior' (como una pulsera, un dibujo o un cartel) en el aula?",
+      "opciones": [
+        "Funcionan como andamios temporales en la Zona de Desarrollo Próximo para guiar la conducta hasta que el niño interiorice la habilidad.",
+        "Sirven como elementos decorativos que hacen el aprendizaje más divertido sin impacto en las funciones mentales superiores.",
+        "Sustituyen permanentemente la memoria del niño, evitando que tenga que esforzarse cognitivamente."
+      ],
+      "respuesta": "Funcionan como andamios temporales en la Zona de Desarrollo Próximo para guiar la conducta hasta que el niño interiorice la habilidad."
+    },
+    {
+      "pregunta": "¿Cuáles son los tres criterios esenciales y universales que deben estar presentes en toda Experiencia de Aprendizaje Mediado, según Feuerstein y Tebar?",
+      "opciones": [
+        "Motivación extrínseca, repetición mecánica y evaluación sumativa.",
+        "Percepción clara, memoria a largo plazo y atención focalizada.",
+        "Intencionalidad (y reciprocidad), trascendencia y significado."
+      ],
+      "respuesta": "Intencionalidad (y reciprocidad), trascendencia y significado."
+    },
+    {
+      "pregunta": "Desde una perspectiva estética y humanizante (Alzate-Ortiz y Castañeda-Patiño), ¿cuál es el gran reto del docente como mediador pedagógico?",
+      "opciones": [
+        "Superar la visión mecanicista y transmisionista, promoviendo espacios donde la cognición, la emoción y la vida misma converjan armónicamente.",
+        "Estandarizar el conocimiento para que todos los alumnos adquieran exactamente el mismo nivel de memorización.",
+        "Aislarse de la cultura y la sociedad para asegurar la objetividad total del aprendizaje."
+      ],
+      "respuesta": "Superar la visión mecanicista y transmisionista, promoviendo espacios donde la cognición, la emoción y la vida misma converjan armónicamente."
+    },
+    {
+      "pregunta": "Para lograr el aprendizaje significativo a través de estrategias didácticas (apoyado en Ausubel), ¿cuál es el factor más importante a considerar al iniciar una mediación?",
+      "opciones": [
+        "El volumen de recursos tecnológicos y fotocopias disponibles en la institución.",
+        "Lo que el alumno ya sabe (su estructura cognitiva previa).",
+        "El grado de disciplina y silencio de los estudiantes en el aula."
+      ],
+      "respuesta": "Lo que el alumno ya sabe (su estructura cognitiva previa)."
+    }
+  ]
+}

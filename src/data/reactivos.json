@@ -1,0 +1,967 @@
+{
+  "curso": "La Mediación Pedagógica y Estrategias de Trabajo Docente",
+  "unidad": 1,
+  "total_reactivos": 80,
+  "catalogo": [
+    {
+      "id": 1,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Cuál es el factor más importante que influye en el aprendizaje según la teoría de David Ausubel?",
+      "opciones": [
+        "El coeficiente intelectual del estudiante evaluado estandarizadamente",
+        "Lo que el alumno ya sabe y su estructura cognitiva previa",
+        "El uso de tecnología avanzada dentro del aula de clases"
+      ],
+      "respuesta_correcta": "Lo que el alumno ya sabe y su estructura cognitiva previa",
+      "referencia": "Ausubel_Psicologia_Educativa.pdf"
+    },
+    {
+      "id": 2,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué característica define la incorporación de nuevos conocimientos en el aprendizaje significativo?",
+      "opciones": [
+        "Se relacionan de manera no arbitraria y sustancial con la estructura cognitiva",
+        "Se memorizan al pie de la letra para reproducirse con exactitud",
+        "Se vinculan temporalmente mediante el uso de estímulos condicionados"
+      ],
+      "respuesta_correcta": "Se relacionan de manera no arbitraria y sustancial con la estructura cognitiva",
+      "referencia": "Ausubel_Psicologia_Educativa.pdf"
+    },
+    {
+      "id": 3,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "En la teoría de la asimilación, ¿qué nombre reciben los conceptos previamente adquiridos que sirven de anclaje para la nueva información?",
+      "opciones": [
+        "Esquemas de acomodación",
+        "Subsunsores o ideas ancla",
+        "Organizadores de respuesta"
+      ],
+      "respuesta_correcta": "Subsunsores o ideas ancla",
+      "referencia": "apuntesM1.json"
+    },
+    {
+      "id": 4,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿A qué se refiere el concepto de 'significatividad lógica' del material de aprendizaje?",
+      "opciones": [
+        "A la motivación intrínseca que presenta el alumno frente al contenido",
+        "Al estado de desarrollo cognitivo en el que se encuentra el estudiante",
+        "A que el material sea relacionable de manera intencional y no arbitraria"
+      ],
+      "respuesta_correcta": "A que el material sea relacionable de manera intencional y no arbitraria",
+      "referencia": "Ausubel_Psicologia_Educativa.pdf"
+    },
+    {
+      "id": 5,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué tipo de aprendizaje significativo consiste en asignar significado a símbolos unitarios, como aprender el significado de una palabra aislada?",
+      "opciones": [
+        "Aprendizaje de proposiciones",
+        "Aprendizaje de representaciones",
+        "Aprendizaje de conceptos"
+      ],
+      "respuesta_correcta": "Aprendizaje de representaciones",
+      "referencia": "Ausubel_Psicologia_Educativa.pdf"
+    },
+    {
+      "id": 6,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Cuál es la característica principal del aprendizaje de proposiciones?",
+      "opciones": [
+        "Captar el significado de nuevas ideas compuestas expresadas en una oración",
+        "Identificar los atributos esenciales de un objeto específico",
+        "Asociar de manera literal una lista de adjetivos sin conexión lógica"
+      ],
+      "respuesta_correcta": "Captar el significado de nuevas ideas compuestas expresadas en una oración",
+      "referencia": "Ausubel_Psicologia_Educativa.pdf"
+    },
+    {
+      "id": 7,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "De acuerdo con el enfoque constructivista, ¿cuál es el rol del estudiante en el proceso educativo?",
+      "opciones": [
+        "Receptor pasivo de la información transmitida por el docente",
+        "Constructor activo y responsable último de su propio aprendizaje",
+        "Observador neutral de las dinámicas sociales del aula"
+      ],
+      "respuesta_correcta": "Constructor activo y responsable último de su propio aprendizaje",
+      "referencia": "Yepez_Aprendizaje_Significativo.pdf"
+    },
+    {
+      "id": 8,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Cuál es la función primordial de los 'organizadores previos' en el diseño de las clases?",
+      "opciones": [
+        "Servir como puente cognitivo entre el conocimiento existente y el nuevo material",
+        "Evaluar sumativamente el aprendizaje al finalizar una unidad de estudio",
+        "Clasificar a los alumnos de acuerdo con su nivel de inteligencia lógica"
+      ],
+      "respuesta_correcta": "Servir como puente cognitivo entre el conocimiento existente y el nuevo material",
+      "referencia": "Yepez_Aprendizaje_Significativo.pdf"
+    },
+    {
+      "id": 9,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué ocurre cuando la disposición del alumno es memorizar el material de forma caprichosa, a pesar de que el contenido tenga significado potencial?",
+      "opciones": [
+        "El aprendizaje se vuelve significativo a largo plazo",
+        "El proceso y el resultado serán mecánicos y carentes de significado",
+        "El material adquiere automáticamente significatividad psicológica"
+      ],
+      "respuesta_correcta": "El proceso y el resultado serán mecánicos y carentes de significado",
+      "referencia": "Ausubel_Psicologia_Educativa.pdf"
+    },
+    {
+      "id": 10,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "Según la clasificación de César Coll, ¿qué vertiente del constructivismo afirma que el conocimiento es producto de las contradicciones originadas al interactuar con el entorno?",
+      "opciones": [
+        "Constructivismo exógeno",
+        "Constructivismo endógeno",
+        "Constructivismo dialéctico"
+      ],
+      "respuesta_correcta": "Constructivismo dialéctico",
+      "referencia": "Yepez_Aprendizaje_Significativo.pdf"
+    },
+    {
+      "id": 11,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "Según el texto de Yépez, ¿por qué es fundamental adecuar los métodos de enseñanza a las características individuales del educando?",
+      "opciones": [
+        "Porque permite aplicar pruebas de rendimiento homogéneas",
+        "Porque el aprendizaje nunca inicia desde cero al existir experiencias previas",
+        "Porque asegura que todos los alumnos alcancen el mismo coeficiente intelectual"
+      ],
+      "respuesta_correcta": "Porque el aprendizaje nunca inicia desde cero al existir experiencias previas",
+      "referencia": "Yepez_Aprendizaje_Significativo.pdf"
+    },
+    {
+      "id": 12,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué tipo de aprendizaje implica que el alumno reciba los contenidos en su forma final y acabada, necesitando únicamente comprenderlos y asimilarlos?",
+      "opciones": [
+        "Aprendizaje por descubrimiento",
+        "Aprendizaje por recepción",
+        "Aprendizaje dialéctico"
+      ],
+      "respuesta_correcta": "Aprendizaje por recepción",
+      "referencia": "Yepez_Aprendizaje_Significativo.pdf"
+    },
+    {
+      "id": 13,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué condición emocional suele generar en los alumnos una propensión hacia el aprendizaje puramente repetitivo?",
+      "opciones": [
+        "Un nivel elevado de confianza en sus habilidades metacognitivas",
+        "El uso constante de organizadores previos y mapas conceptuales",
+        "Un alto nivel de ansiedad o experiencias de fracasos crónicos"
+      ],
+      "respuesta_correcta": "Un alto nivel de ansiedad o experiencias de fracasos crónicos",
+      "referencia": "Ausubel_Psicologia_Educativa.pdf"
+    },
+    {
+      "id": 14,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Qué recurso educativo basado en la teoría de Ausubel desarrolló Novak para organizar gráficamente el conocimiento?",
+      "opciones": [
+        "Listas de sílabas sin sentido",
+        "Mapas conceptuales",
+        "Pruebas de retención literal"
+      ],
+      "respuesta_correcta": "Mapas conceptuales",
+      "referencia": "Yepez_Aprendizaje_Significativo.pdf"
+    },
+    {
+      "id": 15,
+      "tema": "Aprendizaje Significativo",
+      "pregunta": "¿Cómo se define el 'significado psicológico' en la teoría de asimilación?",
+      "opciones": [
+        "Como el significado inherente y abstracto que posee el material de estudio",
+        "Como la suma literal de las palabras que componen una lección escolar",
+        "Como el contenido cognoscitivo real y diferenciado que surge dentro del individuo"
+      ],
+      "respuesta_correcta": "Como el contenido cognoscitivo real y diferenciado que surge dentro del individuo",
+      "referencia": "Ausubel_Psicologia_Educativa.pdf"
+    },
+    {
+      "id": 16,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿En qué disciplina tiene su origen inicial el concepto de Diseño Universal, antes de integrarse al ámbito educativo?",
+      "opciones": [
+        "Arquitectura",
+        "Psicología clínica",
+        "Ingeniería de software"
+      ],
+      "respuesta_correcta": "Arquitectura",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 17,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué problema presentan las adaptaciones realizadas a posteriori en un currículo diseñado para un alumno 'promedio'?",
+      "opciones": [
+        "Elevan excesivamente el coeficiente intelectual de los alumnos sin discapacidad",
+        "Suelen ser poco funcionales, poco atractivas y costosas para los docentes",
+        "Generan un exceso de motivación que dispersa la atención del grupo"
+      ],
+      "respuesta_correcta": "Suelen ser poco funcionales, poco atractivas y costosas para los docentes",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 18,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué hallazgo clave realizó el CAST respecto a las tecnologías diseñadas originalmente para alumnos con discapacidad?",
+      "opciones": [
+        "Que reducían el rendimiento académico del resto de la clase",
+        "Que eran utilizadas con éxito y por iniciativa propia por alumnos sin discapacidad",
+        "Que carecían de validez pedagógica para enseñar conceptos abstractos"
+      ],
+      "respuesta_correcta": "Que eran utilizadas con éxito y por iniciativa propia por alumnos sin discapacidad",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 19,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "Según la neurociencia aplicada al DUA, ¿cuál es la función de las redes de reconocimiento?",
+      "opciones": [
+        "Planificar, ejecutar y monitorizar tareas motrices y mentales",
+        "Asignar significados emocionales a las tareas y regular la motivación",
+        "Percibir la información y asignarle significados (el 'qué' del aprendizaje)"
+      ],
+      "respuesta_correcta": "Percibir la información y asignarle significados (el 'qué' del aprendizaje)",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 20,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué subred cerebral interviene de modo preponderante en la planificación y ejecución de un comentario de texto?",
+      "opciones": [
+        "Redes estratégicas",
+        "Redes afectivas",
+        "Redes de reconocimiento"
+      ],
+      "respuesta_correcta": "Redes estratégicas",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 21,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué redes cerebrales están íntimamente vinculadas con la implicación, los intereses y el estado de ánimo del estudiante?",
+      "opciones": [
+        "Redes de reconocimiento",
+        "Redes afectivas",
+        "Redes estratégicas"
+      ],
+      "respuesta_correcta": "Redes afectivas",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 22,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué principio del DUA se asocia directamente con proporcionar información en múltiples formatos (visual, auditivo, táctil)?",
+      "opciones": [
+        "Proporcionar múltiples formas de acción y expresión",
+        "Proporcionar múltiples formas de implicación",
+        "Proporcionar múltiples formas de representación"
+      ],
+      "respuesta_correcta": "Proporcionar múltiples formas de representación",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 23,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "El uso de teclados adaptados o comandos de voz es una estrategia que responde al principio del DUA enfocado en:",
+      "opciones": [
+        "Múltiples formas de representación",
+        "Múltiples formas de acción y expresión",
+        "Múltiples formas de implicación"
+      ],
+      "respuesta_correcta": "Múltiples formas de acción y expresión",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 24,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿A qué principio del DUA obedece la pauta de optimizar la relevancia, el valor y la autenticidad de las tareas?",
+      "opciones": [
+        "Múltiples formas de implicación",
+        "Múltiples formas de representación",
+        "Múltiples formas de acción y expresión"
+      ],
+      "respuesta_correcta": "Múltiples formas de implicación",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 25,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "Según el enfoque del DUA, ¿qué concepto se desplaza desde el alumno hacia el entorno y los materiales didácticos?",
+      "opciones": [
+        "El coeficiente intelectual",
+        "La discapacidad",
+        "La memoria a corto plazo"
+      ],
+      "respuesta_correcta": "La discapacidad",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 26,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Cuál es una ventaja fundamental de los medios digitales respecto a los tradicionales impresos en la atención a la diversidad?",
+      "opciones": [
+        "La inmutabilidad de su formato de presentación",
+        "Su capacidad de transformación y versatilidad",
+        "La ausencia total de necesidad de conexión en red"
+      ],
+      "respuesta_correcta": "Su capacidad de transformación y versatilidad",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 27,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "Facilitar diccionarios integrados o traductores en textos digitales es un ejemplo de la capacidad de los medios digitales para:",
+      "opciones": [
+        "Poner en red la información",
+        "Impedir la lectura comprensiva autónoma",
+        "Sustituir el trabajo del docente mediador"
+      ],
+      "respuesta_correcta": "Poner en red la información",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 28,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "Bajo la pauta 'Proporcionar opciones para la comprensión', ¿qué estrategia sugiere el DUA para asimilar información nueva?",
+      "opciones": [
+        "Activar los conocimientos previos mediante organizadores gráficos",
+        "Presentar toda la información de manera masiva y simultánea",
+        "Evitar las conexiones curriculares explícitas"
+      ],
+      "respuesta_correcta": "Activar los conocimientos previos mediante organizadores gráficos",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 29,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "Para superar la barrera de decodificación de notaciones matemáticas, el DUA recomienda:",
+      "opciones": [
+        "Reducir las clases de matemáticas al nivel más elemental",
+        "Utilizar listas de términos clave y acompañar textos con explicaciones orales",
+        "Forzar la memorización repetitiva de las fórmulas sin dar ejemplos"
+      ],
+      "respuesta_correcta": "Utilizar listas de términos clave y acompañar textos con explicaciones orales",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 30,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué se busca al proporcionar apoyos para las funciones ejecutivas (Pauta 6)?",
+      "opciones": [
+        "Aumentar la impulsividad en la respuesta de los alumnos",
+        "Guiar el establecimiento de metas y apoyar la planificación estratégica",
+        "Eliminar cualquier tipo de andamiaje en la resolución de problemas"
+      ],
+      "respuesta_correcta": "Guiar el establecimiento de metas y apoyar la planificación estratégica",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 31,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Cuál es una estrategia práctica recomendada para 'Minimizar la sensación de inseguridad y distracciones'?",
+      "opciones": [
+        "Generar constantes cambios abruptos en la planificación diaria",
+        "Crear rutinas de clase y proporcionar alertas o avisos anticipados",
+        "Eliminar los tiempos de recreo para aumentar la concentración"
+      ],
+      "respuesta_correcta": "Crear rutinas de clase y proporcionar alertas o avisos anticipados",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 32,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "En el marco del DUA, ¿cómo se puede 'Mantener el esfuerzo y la persistencia' de los estudiantes?",
+      "opciones": [
+        "Variando los niveles de desafío y fomentando la colaboración",
+        "Aplicando pruebas estandarizadas sorpresivas sin retroalimentación",
+        "Obligando a todos los alumnos a trabajar de manera estrictamente individual"
+      ],
+      "respuesta_correcta": "Variando los niveles de desafío y fomentando la colaboración",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 33,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué implica proporcionar retroalimentación orientada según el DUA?",
+      "opciones": [
+        "Informar únicamente sobre los errores gramaticales o de cálculo",
+        "Utilizar un feedback sustantivo que enfatice el esfuerzo y el uso de estrategias",
+        "Clasificar públicamente a los estudiantes según sus calificaciones"
+      ],
+      "respuesta_correcta": "Utilizar un feedback sustantivo que enfatice el esfuerzo y el uso de estrategias",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 34,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "Para promover la autorregulación en los estudiantes, el maestro debería:",
+      "opciones": [
+        "Proporcionar pautas y modelos de técnicas de autoevaluación",
+        "Evitar que los estudiantes reflexionen sobre sus frustraciones",
+        "Dictar de manera rígida todos los pasos sin permitir decisiones propias"
+      ],
+      "respuesta_correcta": "Proporcionar pautas y modelos de técnicas de autoevaluación",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 35,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "El uso de software de predicción de palabras y correctores ortográficos responde a la necesidad de:",
+      "opciones": [
+        "Proporcionar opciones para la comprensión del lenguaje abstracto",
+        "Proporcionar múltiples herramientas para la composición y construcción",
+        "Proporcionar múltiples formas de reclutar el interés del alumno"
+      ],
+      "respuesta_correcta": "Proporcionar múltiples herramientas para la composición y construcción",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 36,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué barrera inherente presentan los medios tradicionales como la imagen estática?",
+      "opciones": [
+        "Son inaccesibles para estudiantes con dificultades visuales profundas",
+        "Carecen totalmente de capacidad para transmitir emociones",
+        "Requieren siempre de una compleja decodificación lingüística"
+      ],
+      "respuesta_correcta": "Son inaccesibles para estudiantes con dificultades visuales profundas",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 37,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué ocurre al optar por un único medio tradicional en el proceso de enseñanza?",
+      "opciones": [
+        "Se estimula el desarrollo equilibrado de todas las redes cerebrales",
+        "Se excluye del aprendizaje a quienes no tienen capacidades acordes a ese medio",
+        "Se garantiza la individualización del aprendizaje en aulas numerosas"
+      ],
+      "respuesta_correcta": "Se excluye del aprendizaje a quienes no tienen capacidades acordes a ese medio",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 38,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "El hecho de que un material digital permita ocultar, resaltar o cambiar el color de ciertas palabras ilustra su capacidad de:",
+      "opciones": [
+        "Marcado personalizable",
+        "Red interconectada",
+        "Traducción simultánea"
+      ],
+      "respuesta_correcta": "Marcado personalizable",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 39,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué postula la teoría de Vygotsky que complementa el enfoque DUA?",
+      "opciones": [
+        "El aprendizaje mecánico basado en la teoría de inteligencias múltiples",
+        "El uso de la Zona de Desarrollo Próximo y el andamiaje",
+        "La inmutabilidad de la estructura cognitiva a lo largo del ciclo vital"
+      ],
+      "respuesta_correcta": "El uso de la Zona de Desarrollo Próximo y el andamiaje",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 40,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Cuál es una forma práctica de ofrecer alternativas a la información auditiva?",
+      "opciones": [
+        "Proporcionar diagramas, gráficos o subtítulos que acompañen las exposiciones",
+        "Aumentar el volumen de los altavoces durante toda la sesión de clases",
+        "Retirar todos los estímulos visuales para que el alumno afine su oído"
+      ],
+      "respuesta_correcta": "Proporcionar diagramas, gráficos o subtítulos que acompañen las exposiciones",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 41,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "La inclusión de glosarios multilingües y el enlace de palabras clave con sus pronunciaciones favorece:",
+      "opciones": [
+        "La supresión de las funciones ejecutivas de alto nivel",
+        "La comprensión entre diferentes idiomas y contextos culturales",
+        "El desarrollo exclusivo del constructivismo exógeno"
+      ],
+      "respuesta_correcta": "La comprensión entre diferentes idiomas y contextos culturales",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 42,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "¿Qué propósito cumple agrupar la información en unidades más pequeñas dentro de una clase?",
+      "opciones": [
+        "Minimizar la percepción episódica de la realidad",
+        "Guiar el procesamiento de la información de manera progresiva",
+        "Sustituir el trabajo colaborativo por actividades de memorización"
+      ],
+      "respuesta_correcta": "Guiar el procesamiento de la información de manera progresiva",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 43,
+      "tema": "Diseño Universal para el Aprendizaje",
+      "pregunta": "En lugar de imponer metas externas inalcanzables, el DUA sugiere:",
+      "opciones": [
+        "Evitar la formulación de metas educativas",
+        "Involucrar a los alumnos en el establecimiento de objetivos personales realistas",
+        "Limitar el progreso del estudiante al ritmo del más lento del grupo"
+      ],
+      "respuesta_correcta": "Involucrar a los alumnos en el establecimiento de objetivos personales realistas",
+      "referencia": "Alba_Pastor_DUA.pdf"
+    },
+    {
+      "id": 44,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Desde una perspectiva estética de la educación, ¿qué modelo histórico busca superar la mediación pedagógica?",
+      "opciones": [
+        "El modelo ecológico-planetario",
+        "El currículo basado en la linealidad cartesiana y la lógica transmisionista",
+        "La visión socioconstructivista del aprendizaje"
+      ],
+      "respuesta_correcta": "El currículo basado en la linealidad cartesiana y la lógica transmisionista",
+      "referencia": "Alzate_Mediacion_Pedagogica.pdf"
+    },
+    {
+      "id": 45,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Según Lorenzo Tébar, ¿cuál es una de las funciones clave del educador mediador?",
+      "opciones": [
+        "Interponerse entre el estímulo exterior y el alumno para interpretar y valorar la información",
+        "Repetir de manera inmutable el contenido exacto de los manuales escolares",
+        "Evaluar la inteligencia de forma estática basándose únicamente en el CI"
+      ],
+      "respuesta_correcta": "Interponerse entre el estímulo exterior y el alumno para interpretar y valorar la información",
+      "referencia": "Torres_Mediacion_Pedagogica_2023.pdf"
+    },
+    {
+      "id": 46,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "En la teoría de Vygotsky, ¿qué son los mediadores exteriores en el entorno del aula?",
+      "opciones": [
+        "Herramientas exclusivas para medir la inteligencia verbal de los niños",
+        "Andamios temporales que guían la conducta hacia el desempeño independiente",
+        "Sanciones disciplinarias para regular la impulsividad en espacios abiertos"
+      ],
+      "respuesta_correcta": "Andamios temporales que guían la conducta hacia el desempeño independiente",
+      "referencia": "Bodrova_Uso_de_Mediadores.pdf"
+    },
+    {
+      "id": 47,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Cuándo se considera adecuado retirar un mediador exterior según los principios vygotskianos?",
+      "opciones": [
+        "Cuando el niño ha interiorizado su significado y regula su propia conducta de forma autónoma",
+        "Apenas inicia la primera sesión de aprendizaje para forzar la memoria",
+        "Nunca deben retirarse, ya que son indispensables para el pensamiento adulto"
+      ],
+      "respuesta_correcta": "Cuando el niño ha interiorizado su significado y regula su propia conducta de forma autónoma",
+      "referencia": "Bodrova_Uso_de_Mediadores.pdf"
+    },
+    {
+      "id": 48,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Para la Teoría de la Modificabilidad Cognoscitiva Estructural (TMCE) de Feuerstein, ¿qué es la inteligencia?",
+      "opciones": [
+        "Una capacidad genética inamovible determinada en el nacimiento",
+        "Un proceso dinámico de autorregulación y propensión a la modificabilidad ante estímulos",
+        "El cúmulo de respuestas memorísticas acertadas en pruebas estandarizadas"
+      ],
+      "respuesta_correcta": "Un proceso dinámico de autorregulación y propensión a la modificabilidad ante estímulos",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 49,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "En el modelo de Feuerstein, ¿qué rol juega la 'Experiencia de Aprendizaje Mediado' (EAM)?",
+      "opciones": [
+        "Es el determinante proximal que altera positivamente la estructura cognitiva del individuo",
+        "Es un factor distal que impide la asimilación correcta de los contenidos",
+        "Es un recurso tecnológico que reemplaza la interacción humana en el aula"
+      ],
+      "respuesta_correcta": "Es el determinante proximal que altera positivamente la estructura cognitiva del individuo",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 50,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Cuáles son los tres criterios esenciales y universales que deben estar presentes en toda Experiencia de Aprendizaje Mediado?",
+      "opciones": [
+        "Motivación, retención e individualismo",
+        "Intencionalidad, trascendencia y significado",
+        "Aceptación pasiva, remediación y memorización"
+      ],
+      "respuesta_correcta": "Intencionalidad, trascendencia y significado",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 51,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "El criterio de 'trascendencia' en la EAM implica que:",
+      "opciones": [
+        "La actividad debe tener aplicación más allá del aquí y el ahora, sirviendo para situaciones futuras",
+        "El maestro debe comunicar su intención de manera explícita para captar la atención inmediata",
+        "Se debe asignar un valor afectivo al material presentado en esa clase"
+      ],
+      "respuesta_correcta": "La actividad debe tener aplicación más allá del aquí y el ahora, sirviendo para situaciones futuras",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 52,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Al organizar una actividad dotándola de valor afectivo, cultural o social para despertar el interés del alumno, el mediador aplica el criterio de:",
+      "opciones": [
+        "Intencionalidad",
+        "Significado",
+        "Control del comportamiento"
+      ],
+      "respuesta_correcta": "Significado",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 53,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "En las funciones cognoscitivas descritas por Feuerstein, ¿a qué fase corresponde el 'comportamiento exploratorio sistemático y la percepción clara'?",
+      "opciones": [
+        "Fase de elaboración",
+        "Fase de salida",
+        "Fase de entrada (recolección de información)"
+      ],
+      "respuesta_correcta": "Fase de entrada (recolección de información)",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 54,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Una conducta sumativa deficiente y la carencia de estrategias para probar hipótesis son problemas asociados principalmente a la fase de:",
+      "opciones": [
+        "Entrada de información",
+        "Elaboración de la información",
+        "Salida de la información"
+      ],
+      "respuesta_correcta": "Elaboración de la información",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 55,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué ocurre cuando el mediador promueve la 'comunicación descentralizada' en la fase de salida?",
+      "opciones": [
+        "El alumno aprende a explicar las cosas poniéndose en el rol del otro",
+        "El estudiante bloquea la expresión de sus respuestas por temor al error",
+        "El niño recopila datos de manera imprecisa y egocéntrica"
+      ],
+      "respuesta_correcta": "El alumno aprende a explicar las cosas poniéndose en el rol del otro",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 56,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Dentro de las operaciones mentales básicas, ¿qué implica la 'identificación'?",
+      "opciones": [
+        "Establecer un argumento inductivo dentro de un ámbito amplio",
+        "Descubrir las características de un objeto distinguiendo las esenciales de las accesorias",
+        "Elaborar una nueva conclusión a partir de relaciones silogísticas complejas"
+      ],
+      "respuesta_correcta": "Descubrir las características de un objeto distinguiendo las esenciales de las accesorias",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 57,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "En la evaluación de la eficacia de la mediación pedagógica (Reyes), ¿qué práctica se identifica como propia del paradigma tradicional?",
+      "opciones": [
+        "La implementación de debates y lluvias de ideas con retroalimentación constructiva",
+        "La simple entrega de fotocopias de libros sin un proceso de mediación real",
+        "El uso de rúbricas formativas para evaluar la progresión del estudiante"
+      ],
+      "respuesta_correcta": "La simple entrega de fotocopias de libros sin un proceso de mediación real",
+      "referencia": "Reyes_Estrategias_Mediacion.pdf"
+    },
+    {
+      "id": 58,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Un maestro traza líneas en un papel por cada palabra que un niño le dicta para ayudarlo a estructurar su cuento. Este es un ejemplo de:",
+      "opciones": [
+        "Técnica de escritura con andamiaje (mediador visual)",
+        "Evaluación sumativa de la comprensión lectora",
+        "Proyección de relaciones virtuales"
+      ],
+      "respuesta_correcta": "Técnica de escritura con andamiaje (mediador visual)",
+      "referencia": "Bodrova_Uso_de_Mediadores.pdf"
+    },
+    {
+      "id": 59,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Por qué es riesgoso utilizar un mediador exterior de manera ininterrumpida durante toda la jornada escolar?",
+      "opciones": [
+        "Porque acelera el agotamiento de los recursos financieros del aula",
+        "Porque el mediador pierde su peculiaridad y deja de incitar la conducta apropiada",
+        "Porque fomenta la sobreestimulación de las redes afectivas"
+      ],
+      "respuesta_correcta": "Porque el mediador pierde su peculiaridad y deja de incitar la conducta apropiada",
+      "referencia": "Bodrova_Uso_de_Mediadores.pdf"
+    },
+    {
+      "id": 60,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "De acuerdo con el texto de Alzate-Ortiz, un docente como mediador pedagógico asume un rol de 'políglota de lenguajes pedagógicos'. Esto significa que:",
+      "opciones": [
+        "Solo enseña idiomas extranjeros en el aula",
+        "Es capaz de trabajar en red, motivar y utilizar diversas formas estéticas para educar",
+        "Basa toda su instrucción exclusivamente en el lenguaje verbal escrito"
+      ],
+      "respuesta_correcta": "Es capaz de trabajar en red, motivar y utilizar diversas formas estéticas para educar",
+      "referencia": "Alzate_Mediacion_Pedagogica.pdf"
+    },
+    {
+      "id": 61,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué plano de la mediación enfatiza la capacidad del estudiante para emancipar sus saberes formando una ciudadanía libre y respetuosa?",
+      "opciones": [
+        "El componente psicológico",
+        "El componente tecnológico",
+        "El componente político"
+      ],
+      "respuesta_correcta": "El componente político",
+      "referencia": "Alzate_Mediacion_Pedagogica.pdf"
+    },
+    {
+      "id": 62,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué ocurre en un individuo que carece severamente de Experiencias de Aprendizaje Mediado según Feuerstein?",
+      "opciones": [
+        "Desarrolla espontáneamente estrategias de alta metacognición",
+        "Presenta una reducida propensión a aprender y una baja modificabilidad ante nuevos estímulos",
+        "Sustituye la EAM mediante el uso intuitivo de las tecnologías digitales"
+      ],
+      "respuesta_correcta": "Presenta una reducida propensión a aprender y una baja modificabilidad ante nuevos estímulos",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 63,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Para la teoría de Feuerstein, la pobreza, la genética y el nivel educativo de los padres son considerados factores:",
+      "opciones": [
+        "Proximales directos de la modificabilidad",
+        "Endógenos inalterables por la educación",
+        "Distales o etiológicos que pueden ser compensados"
+      ],
+      "respuesta_correcta": "Distales o etiológicos que pueden ser compensados",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 64,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Dentro de las estrategias didácticas descritas por Reyes, la fase de 'tratamiento desde la forma' en la mediación implica:",
+      "opciones": [
+        "Seleccionar el índice temático del libro de texto",
+        "Utilizar recursos altamente expresivos y lúdicos para que el estudiante encuentre significado",
+        "Evaluar la rapidez de resolución matemática del estudiante"
+      ],
+      "respuesta_correcta": "Utilizar recursos altamente expresivos y lúdicos para que el estudiante encuentre significado",
+      "referencia": "Reyes_Estrategias_Mediacion.pdf"
+    },
+    {
+      "id": 65,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué debe hacer un mediador eficiente ante un comportamiento impulsivo del niño?",
+      "opciones": [
+        "Filtrar y organizar los estímulos, interponiendo pausas y orden para fijar su atención",
+        "Permitir la exposición directa y azarosa al medio para que aprenda del error inminente",
+        "Separarlo definitivamente del grupo para proteger al resto de los alumnos"
+      ],
+      "respuesta_correcta": "Filtrar y organizar los estímulos, interponiendo pausas y orden para fijar su atención",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 66,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿En qué se diferencia el uso de diagramas de Venn en la educación temprana según la óptica de los mediadores visuales?",
+      "opciones": [
+        "Obligan al alumno a memorizar fórmulas de estadística descriptiva",
+        "Permiten clasificar objetos y conceptos abstractos evidenciando semejanzas y diferencias",
+        "Inhiben el desarrollo del pensamiento divergente en preescolar"
+      ],
+      "respuesta_correcta": "Permiten clasificar objetos y conceptos abstractos evidenciando semejanzas y diferencias",
+      "referencia": "Bodrova_Uso_de_Mediadores.pdf"
+    },
+    {
+      "id": 67,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "Las 'Actividades, tareas y procedimientos' son los tres elementos que componen:",
+      "opciones": [
+        "El diagnóstico socioeconómico",
+        "Las redes de reconocimiento cerebral",
+        "Las estrategias didácticas"
+      ],
+      "respuesta_correcta": "Las estrategias didácticas",
+      "referencia": "Reyes_Estrategias_Mediacion.pdf"
+    },
+    {
+      "id": 68,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Qué operación mental requiere prever los pasos a seguir para realizar una acción o resolver un problema?",
+      "opciones": [
+        "Planificación de la conducta",
+        "Transporte visual",
+        "Razonamiento silogístico"
+      ],
+      "respuesta_correcta": "Planificación de la conducta",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 69,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "¿Por qué es importante crear un sentimiento de competencia en la mediación pedagógica?",
+      "opciones": [
+        "Para fomentar la rivalidad agresiva entre los compañeros de clase",
+        "Para asegurar que el individuo reciba retroalimentación positiva y entienda el porqué de su logro",
+        "Para justificar el uso exclusivo de castigos punitivos"
+      ],
+      "respuesta_correcta": "Para asegurar que el individuo reciba retroalimentación positiva y entienda el porqué de su logro",
+      "referencia": "Gomez_Feuerstein_Mediacion.pdf"
+    },
+    {
+      "id": 70,
+      "tema": "Mediación Pedagógica",
+      "pregunta": "En la teoría de Vygotsky, ¿qué condición debe cumplir un mediador exterior para ser verdaderamente efectivo?",
+      "opciones": [
+        "Estar ubicado en la zona de pánico o de máxima dificultad del niño",
+        "Estar dentro de la Zona de Desarrollo Próximo (ZDP) del niño para dirigir sus acciones",
+        "Estar diseñado para que el docente lo utilice sin intervención del alumno"
+      ],
+      "respuesta_correcta": "Estar dentro de la Zona de Desarrollo Próximo (ZDP) del niño para dirigir sus acciones",
+      "referencia": "Bodrova_Uso_de_Mediadores.pdf"
+    },
+    {
+      "id": 71,
+      "tema": "La Pauta de Observación",
+      "pregunta": "¿Qué tipo de observación resulta más pertinente para evaluar el desempeño docente de cara a una retroalimentación formativa?",
+      "opciones": [
+        "Observación inestructurada, participante y asistemática",
+        "Observación estructurada, no participante y sistemática",
+        "Observación etnográfica sin marcos de referencia previos"
+      ],
+      "respuesta_correcta": "Observación estructurada, no participante y sistemática",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 72,
+      "tema": "La Pauta de Observación",
+      "pregunta": "¿Cuál es la función principal de definir el 'constructo' antes de realizar una observación de aula?",
+      "opciones": [
+        "Establecer la sanción económica aplicable al maestro",
+        "Conceptualizar, con base en estándares, qué se entenderá por 'calidad docente' o el fenómeno a medir",
+        "Descartar la participación del equipo directivo en el proceso"
+      ],
+      "respuesta_correcta": "Conceptualizar, con base en estándares, qué se entenderá por 'calidad docente' o el fenómeno a medir",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 73,
+      "tema": "La Pauta de Observación",
+      "pregunta": "Para organizar el levantamiento de información de un constructo complejo, ¿en qué se debe desagregar?",
+      "opciones": [
+        "En hipótesis de trabajo",
+        "En dimensiones o criterios de evaluación",
+        "En escalas de diferencial semántico"
+      ],
+      "respuesta_correcta": "En dimensiones o criterios de evaluación",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 74,
+      "tema": "La Pauta de Observación",
+      "pregunta": "Un buen indicador de evaluación en una pauta de observación debe caracterizarse por:",
+      "opciones": [
+        "Ser abstracto, de múltiple interpretación y referir a aspectos periféricos",
+        "Ser una descripción concreta de una conducta observable que posea un referente único",
+        "Contener valoraciones subjetivas del estado emocional del observador"
+      ],
+      "respuesta_correcta": "Ser una descripción concreta de una conducta observable que posea un referente único",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 75,
+      "tema": "La Pauta de Observación",
+      "pregunta": "¿Qué problema se presenta si un indicador evalúa la 'planificación del diseño de clase' durante una observación directa en aula?",
+      "opciones": [
+        "Ese indicador no es directamente observable en la dinámica interactiva de la clase",
+        "Ese indicador garantiza el mayor grado de confiabilidad de la pauta",
+        "La observación se volverá inestructurada y participante de inmediato"
+      ],
+      "respuesta_correcta": "Ese indicador no es directamente observable en la dinámica interactiva de la clase",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 76,
+      "tema": "La Pauta de Observación",
+      "pregunta": "¿Cuál es la principal ventaja de utilizar una 'lista de cotejo' para el registro de la observación?",
+      "opciones": [
+        "Permite describir minuciosamente los niveles de gradación del desempeño",
+        "Utiliza una escala sencilla (Sí/No) que facilita el levantamiento rápido de información en tiempo real",
+        "Sustituye la necesidad de contar con un observador capacitado"
+      ],
+      "respuesta_correcta": "Utiliza una escala sencilla (Sí/No) que facilita el levantamiento rápido de información en tiempo real",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 77,
+      "tema": "La Pauta de Observación",
+      "pregunta": "¿En qué consiste la 'aplicación piloto' de una pauta de observación?",
+      "opciones": [
+        "En utilizar el instrumento de manera simulada para detectar discrepancias entre evaluadores y afinar su diseño",
+        "En entregar la pauta directamente a los alumnos para que evalúen anónimamente",
+        "En redactar el informe final de retroalimentación sin visitar el aula"
+      ],
+      "respuesta_correcta": "En utilizar el instrumento de manera simulada para detectar discrepancias entre evaluadores y afinar su diseño",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 78,
+      "tema": "La Pauta de Observación",
+      "pregunta": "¿Qué aspecto es fundamental para que la retroalimentación derivada de la observación mejore la práctica?",
+      "opciones": [
+        "Debe ser general y abstracta para evitar incomodidades personales",
+        "Debe enfocarse en emitir juicios de valor sobre la personalidad del profesor",
+        "Debe ser específica, basada en evidencias y enfocada en generar un plan de mejora"
+      ],
+      "respuesta_correcta": "Debe ser específica, basada en evidencias y enfocada en generar un plan de mejora",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 79,
+      "tema": "La Pauta de Observación",
+      "pregunta": "Si el objetivo de la observación es ubicar al profesor en una categoría de desempeño progresivo (ej. Insuficiente, En desarrollo, Efectivo), el instrumento adecuado es:",
+      "opciones": [
+        "Un inventario de funciones cognitivas",
+        "Una lista de cotejo dicotómica",
+        "Una rúbrica de valoración"
+      ],
+      "respuesta_correcta": "Una rúbrica de valoración",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    },
+    {
+      "id": 80,
+      "tema": "La Pauta de Observación",
+      "pregunta": "¿Qué requisito cumple un indicador cuando aborda el objeto de interés en sus aspectos centrales y no periféricos?",
+      "opciones": [
+        "Coherencia con el objetivo de evaluación",
+        "Relevancia de su contenido",
+        "Transcendencia metodológica"
+      ],
+      "respuesta_correcta": "Relevancia de su contenido",
+      "referencia": "Cortez_Salcedo_Evaluacion_6.pdf"
+    }
+  ]
+}

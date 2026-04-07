@@ -1,0 +1,129 @@
+{
+  "moduloId": "4",
+  "temaPrincipal": "La Pauta de Observación",
+  "descripcionGeneral": "Guía metodológica para el desarrollo, construcción y aplicación de pautas de observación sistemática, orientadas a la evaluación formativa y retroalimentación de la práctica docente en el aula.",
+  "extractos": [
+    {
+      "id": 1,
+      "titulo": "Naturaleza y Tipos de Observación",
+      "contenido": "La observación en las ciencias sociales y en el aula difiere de la observación natural; debe ser metódica y sistemática. Para evaluar el desempeño docente, los autores recomiendan una observación estructurada (con dimensiones previas), no participante (sin interferir) y con registro sistemático.",
+      "puntosClave": [
+        "Observación metódica y sistemática",
+        "Observación estructurada",
+        "Rol no participante del observador"
+      ],
+      "fuente": "Cortez_Salcedo_Evaluacion_6.pdf",
+      "color": "var(--primary)"
+    },
+    {
+      "id": 2,
+      "titulo": "Elementos Clave ante la Observación",
+      "contenido": "Antes de observar, es imprescindible definir cinco elementos articuladores: el propósito (¿para qué?), el constructo (¿qué se observará?), el momento (¿cuándo?), el sujeto (¿a quién?) y el observador (¿quién?, requiriendo idoneidad y capacitación).",
+      "puntosClave": [
+        "Definición clara del propósito",
+        "Delimitación del constructo",
+        "Idoneidad del observador"
+      ],
+      "fuente": "Cortez_Salcedo_Evaluacion_6.pdf",
+      "color": "var(--secondary)"
+    },
+    {
+      "id": 3,
+      "titulo": "De los Estándares a los Indicadores",
+      "contenido": "La construcción de la pauta inicia definiendo el constructo (ej. 'calidad docente') a partir de estándares. Este constructo se desagrega en dimensiones (grandes ámbitos de desempeño) y luego en indicadores, que son descripciones concretas y precisas de la presencia de un atributo esperado.",
+      "puntosClave": [
+        "Uso de estándares de desempeño",
+        "Desagregación en dimensiones",
+        "Formulación de indicadores concretos"
+      ],
+      "fuente": "Cortez_Salcedo_Evaluacion_6.pdf",
+      "color": "var(--tertiary)"
+    },
+    {
+      "id": 4,
+      "titulo": "Requisitos de un Buen Indicador",
+      "contenido": "Para que un indicador sea válido en una pauta de observación, debe cumplir con cuatro requisitos fundamentales: ser coherente con el objetivo, relevante en su contenido, observable/medible directamente en la práctica, y poseer un referente único (evaluar solo un aspecto a la vez para evitar ambigüedad).",
+      "puntosClave": [
+        "Coherencia y relevancia",
+        "Conductas directamente observables",
+        "Referente único por indicador"
+      ],
+      "fuente": "Cortez_Salcedo_Evaluacion_6.pdf",
+      "color": "var(--quaternary)"
+    },
+    {
+      "id": 5,
+      "titulo": "Retroalimentación y Uso de la Información",
+      "contenido": "La observación de aula no está completa sin el proceso de retroalimentación (feedback). Para que esta genere una mejora real en la práctica docente, debe ser específica, práctica y centrada en la mejora, evitando que se perciba como un juicio personal.",
+      "puntosClave": [
+        "Feedback específico y práctico",
+        "Enfoque en la mejora continua",
+        "Reflexión conjunta sobre la práctica"
+      ],
+      "fuente": "Cortez_Salcedo_Evaluacion_6.pdf",
+      "color": "var(--quinary)"
+    }
+  ],
+  "organizadorPrevio": {
+    "fases": [
+      { 
+        "nombre": "Paso 1: Definir el Constructo", 
+        "descripcion": "Establecer qué se evaluará basándose en estándares de la práctica profesional." 
+      },
+      { 
+        "nombre": "Paso 2: Identificar Dimensiones", 
+        "descripcion": "Desagregar el constructo en criterios o grandes ámbitos de evaluación." 
+      },
+      { 
+        "nombre": "Paso 3: Formular Indicadores", 
+        "descripcion": "Crear sentencias observables, relevantes y de referente único para cada dimensión." 
+      },
+      { 
+        "nombre": "Paso 4: Generar el Instrumento", 
+        "descripcion": "Diseñar una lista de cotejo (para registro rápido) o una rúbrica (para valorar niveles de desempeño)." 
+      },
+      { 
+        "nombre": "Paso 5: Aplicación Piloto", 
+        "descripcion": "Poner a prueba la pauta para detectar ambigüedades, calibrar observadores y realizar ajustes." 
+      }
+    ]
+  },
+  "miniTest": [
+    {
+      "pregunta": "¿Qué tipo de observación se recomienda para evaluar el desempeño docente en el aula con el fin de retroalimentar su práctica?",
+      "opciones": [
+        "Inestructurada y participante",
+        "Estructurada, no participante y sistemática",
+        "Natural y asistemática"
+      ],
+      "respuesta": "Estructurada, no participante y sistemática"
+    },
+    {
+      "pregunta": "En la formulación de indicadores, ¿qué significa que un indicador deba tener un 'referente único'?",
+      "opciones": [
+        "Que debe referir a un solo aspecto o variable para que resulte inequívoco para el observador.",
+        "Que solo un observador a la vez puede utilizar la pauta de evaluación.",
+        "Que debe abarcar la totalidad del desempeño del maestro en una sola frase."
+      ],
+      "respuesta": "Que debe referir a un solo aspecto o variable para que resulte inequívoco para el observador."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal de realizar una 'aplicación piloto' de la pauta de observación?",
+      "opciones": [
+        "Calificar definitivamente el desempeño del maestro.",
+        "Poner a prueba el instrumento para detectar errores, ambigüedades y ajustar criterios entre los aplicadores.",
+        "Sustituir la retroalimentación directa al docente."
+      ],
+      "respuesta": "Poner a prueba el instrumento para detectar errores, ambigüedades y ajustar criterios entre los aplicadores."
+    },
+    {
+      "pregunta": "Según el texto, ¿qué característica debe tener una retroalimentación efectiva después de la observación de aula?",
+      "opciones": [
+        "Debe ser un juicio personal sobre el carácter del maestro.",
+        "Debe centrarse exclusivamente en comparar al maestro con otros colegas.",
+        "Debe ser específica, práctica y enfocada en la mejora a corto plazo."
+      ],
+      "respuesta": "Debe ser específica, práctica y enfocada en la mejora a corto plazo."
+    }
+  ]
+}
