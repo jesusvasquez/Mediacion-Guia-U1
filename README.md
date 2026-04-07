@@ -49,6 +49,20 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
     npm run build
     ```
 
+## Instalación como App (PWA)
+
+Esta aplicación es una **Progressive Web App (PWA)**, lo que permite instalarla en tus dispositivos para usarla sin las barras del navegador, mejorando la experiencia de estudio.
+
+### 💻 Escritorio (Windows y MacOS)
+1. **Chrome / Edge**: Haz clic en el icono de **instalar** (monitor con flecha) que aparece en la parte derecha de la barra de direcciones.
+2. **Safari (macOS Sonoma+)**: Ve a `Archivo` > `Añadir al Dock...`.
+
+### 📱 Dispositivos Móviles
+- **Android (Chrome)**: Toca los tres puntos (menú) y selecciona **"Instalar aplicación"** o **"Añadir a la pantalla de inicio"**.
+- **iOS / iPhone (Safari)**: Toca el botón de **"Compartir"** (cuadrado con flecha) y selecciona **"Añadir a la pantalla de inicio"**.
+
+---
+
 ## Estructura del Proyecto
 
 - `src/components`: Componentes reutilizables (Sidebar, Topbar, etc.).
