@@ -9,6 +9,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+      workbox: {
+        navigateFallbackDenylist: [/^\/pdfs/]
+      },
       manifest: {
         name: 'Mediación y Estrategias Docentes',
         short_name: 'Guía Mediada',

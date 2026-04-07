@@ -130,7 +130,7 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
       {/* DOWNLOAD PDF ACTION */}
       <div style={{ textAlign: 'center', marginTop: '-1rem', marginBottom: '1.5rem' }}>
         <a
-          href={`/public/pdfs/ApuntesEstudioM${data.moduloId}.pdf`}
+          href={`/pdfs/ApuntesEstudioM${data.moduloId}.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-secondary"
