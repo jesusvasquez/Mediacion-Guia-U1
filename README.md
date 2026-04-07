@@ -1,6 +1,6 @@
 # Guía de Estudio: La Mediación Pedagógica y Estrategias de Trabajo Docente - BENUNE 🎓
 
-![Logo BENUNE](https://benune.github.io/home/images/LogoBENUNE_WhiteCircleBG.png)
+<img src="https://benune.github.io/home/images/LogoBENUNE_WhiteCircleBG.png" alt="Logo BENUNE" width="50" height="50">
 
 Esta es una **Progressive Web App (PWA)** diseñada para estudiantes de la Benemérita Escuela Normal Urbana Nocturna (BENUNE). Su objetivo es proporcionar una guía interactiva y estructurada sobre la **Mediación Pedagógica y las Estrategias de Trabajo Docente**, centrándose en la Unidad 1 del curso.
 
@@ -59,6 +59,6 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 ---
 
-**Institución**: Benemérita Escuela Normal Urbana Nocturna (BENUNE) "Ing. José G. Valenzuela"
-**Autor**: Jesús Antonio Vásquez Córdova
+**Institución**: Benemérita Escuela Normal Urbana Nocturna "Ing. José G. Valenzuela" (BENUNE).
+**Autor**: Jesús Antonio Vásquez Córdova.
 **Gestión Pedagógica**: Unidad 1 - La Mediación Pedagógica
