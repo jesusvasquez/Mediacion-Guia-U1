@@ -152,6 +152,28 @@ export default function Sidebar({ onClose }: SidebarProps) {
           );
         })}
       </nav>
+
+      {/* COPYRIGHT & INFO */}
+      <div style={{
+        marginTop: 'auto',
+        paddingTop: '1.5rem',
+        borderTop: '1px solid var(--border-light)',
+        textAlign: 'center',
+        paddingBottom: '0.5rem'
+      }}>
+        <p className="text-xs text-muted" style={{ fontWeight: 500, lineHeight: 1.4, marginBottom: '0.3rem' }}>
+          &copy; 2026 Jesús Antonio Vásquez Córdova
+        </p>
+        <p className="text-xs text-muted" style={{ lineHeight: 1.3, marginBottom: '0.6rem', opacity: 0.8 }}>
+          Desarrollador y Docente Titular<br />
+          Escuela Normal BENUNE, México
+        </p>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" className="text-xs text-muted" style={{ textDecoration: 'underline', opacity: 0.7 }}>
+            Licencia CC BY-NC-SA 4.0
+          </a>
+        </div>
+      </div>
     </aside>
   );
 }
