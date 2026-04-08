@@ -21,6 +21,10 @@
   --quaternary-hover: #92400e;
   --quaternary-light: #ae5a0a22;
   
+  --quinary: #6b21a8; /* Purple */
+  --quinary-hover: #581c87;
+  --quinary-light: #6b21a822;
+  
   --accent-gold: #b08d57;
   
   --text-main: #1d1d1f; /* macOS dark gray */
@@ -67,6 +71,10 @@ body.high-contrast {
   --secondary: #6cb98b; /* Lighter forest green */
   --secondary-hover: #83d1a3;
   --secondary-light: rgba(108, 185, 139, 0.15);
+  
+  --quinary: #a855f7; /* Lighter purple */
+  --quinary-hover: #c084fc;
+  --quinary-light: rgba(168, 85, 247, 0.15);
   
   --text-main: #e0e0e0;
   --text-muted: #9e9e9e;
