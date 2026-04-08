@@ -138,12 +138,18 @@
   "videos": [
     {
       "id": "vid_m3_1",
+      "titulo": "Mediación Pedagógica.",
+      "url": "https://www.youtube.com/embed/xkmlTkoeIgM",
+      "descripcion": "Mediación pedagógica: Clave de una educación humanizante y transformadora. Una mirada desde la estética y la comunicación"
+    },
+    {
+      "id": "vid_m3_2",
       "titulo": "Feuerstein - Teoría de la modificabilidad estructural cognitiva y la mediación",
       "url": "https://www.youtube.com/embed/XfUjuFkFnqQ",
       "descripcion": "Feuerstein postula que el ser humano es un sistema abierto y dotado de plasticidad. En la EAM, el docente se interpone entre el entorno y el aprendiz, filtrando y organizando los estímulos."
     },
     {
-      "id": "vid_m3_2",
+      "id": "vid_m3_3",
       "titulo": "Vygotsky - La Teoría del Desarrollo Cognitivo a Través de las Relaciones Sociales.",
       "url": "https://www.youtube.com/embed/fHdQWmbhfdE",
       "descripcion": "La Teoría del Desarrollo Social de Vygotsky sostiene que la comunidad y el lenguaje juegan un papel central en el aprendizaje. Vygotsky creía que los niños se desarrollan independientemente de etapas específicas como resultado de las interacciones sociales."
