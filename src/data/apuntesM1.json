@@ -6,7 +6,7 @@
     {
       "id": 1,
       "titulo": "Condiciones del Aprendizaje Significativo (Ausubel)",
-      "contenido": "Para que el aprendizaje no sea repetitivo ni mecánico, se requieren dos condiciones: que el material tenga 'significatividad lógica' (relacionable de manera intencional y no arbitraria) y que el alumno posea una 'actitud o disposición' activa para anclarlo en su estructura cognitiva previa.",
+      "contenido": "Para que el aprendizaje no sea repetitivo ni mecánico, se requieren dos condiciones:\n• Significatividad lógica: El material debe ser relacionable de manera intencional y no arbitraria.\n• Disposición activa: El alumno debe poseer una actitud o disposición para anclarlo en su estructura cognitiva previa.",
       "puntosClave": [
         "Significado lógico del material",
         "Disposición psicológica del aprendiz",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "titulo": "Tipos de Aprendizaje Significativo (Ausubel)",
-      "contenido": "Ausubel reflexiona que el conocimiento no es homogéneo. Distingue tres tipos: 1) Representaciones (asignar significado a símbolos unitarios/vocabulario), 2) Conceptos (ideas genéricas y atributos de criterio), y 3) Proposiciones (captar el significado de nuevas ideas compuestas o frases completas).",
+      "contenido": "Ausubel reflexiona que el conocimiento no es homogéneo. Distingue tres tipos:\n• Representaciones: Asignar significado a símbolos unitarios o vocabulario.\n• Conceptos: Ideas genéricas y atributos de criterio.\n• Proposiciones: Captar el significado de nuevas ideas compuestas o frases completas.",
       "puntosClave": [
         "Aprendizaje de representaciones",
         "Aprendizaje de conceptos",
@@ -54,21 +54,21 @@
   ],
   "organizadorPrevio": {
     "fases": [
-      { 
-        "nombre": "1. Exploración Diagnóstica", 
-        "descripcion": "Identificación de la estructura cognitiva, experiencias y conocimientos previos idiosincráticos del educando." 
+      {
+        "nombre": "1. Exploración Diagnóstica",
+        "descripcion": "Identificación de la estructura cognitiva, experiencias y conocimientos previos idiosincráticos del educando."
       },
-      { 
-        "nombre": "2. Construcción del Puente Cognitivo", 
-        "descripcion": "Intervención del docente mediador utilizando organizadores previos (ej. mapas conceptuales) para preparar el andamiaje." 
+      {
+        "nombre": "2. Construcción del Puente Cognitivo",
+        "descripcion": "Intervención del docente mediador utilizando organizadores previos (ej. mapas conceptuales) para preparar el andamiaje."
       },
-      { 
-        "nombre": "3. Presentación del Material Lógico", 
-        "descripcion": "Introducción de los nuevos contenidos curriculares con significatividad lógica (relacionables de modo no arbitrario)." 
+      {
+        "nombre": "3. Presentación del Material Lógico",
+        "descripcion": "Introducción de los nuevos contenidos curriculares con significatividad lógica (relacionables de modo no arbitrario)."
       },
-      { 
-        "nombre": "4. Asimilación Psicológica", 
-        "descripcion": "El alumno interactúa con el material, modificando y reestructurando sus conceptos previos hacia un conocimiento más complejo." 
+      {
+        "nombre": "4. Asimilación Psicológica",
+        "descripcion": "El alumno interactúa con el material, modificando y reestructurando sus conceptos previos hacia un conocimiento más complejo."
       }
     ]
   },
@@ -99,6 +99,14 @@
         "No existe ninguna diferencia; ambos términos son sinónimos en la teoría del aprendizaje por repetición."
       ],
       "respuesta": "El lógico es inherente a la naturaleza del material de estudio, mientras que el psicológico es el contenido real y diferenciado que el individuo incorpora en su mente."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_m1_1",
+      "titulo": "Aprendizaje Significativo - David Ausubel",
+      "url": "https://www.youtube.com/embed/-YpCocmWxPA?start=318",
+      "descripcion": "Breve explicación audiovisual para reforzar los conceptos de la teoría de David Ausubel (a partir del minuto 5:18) antes de pasar a la autocomprobación."
     }
   ]
 }

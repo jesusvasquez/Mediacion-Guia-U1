@@ -6,7 +6,7 @@
     {
       "id": 1,
       "titulo": "Naturaleza y Tipos de Observación",
-      "contenido": "La observación en las ciencias sociales y en el aula difiere de la observación natural; debe ser metódica y sistemática. Para evaluar el desempeño docente, los autores recomiendan una observación estructurada (con dimensiones previas), no participante (sin interferir) y con registro sistemático.",
+      "contenido": "La observación de aula debe ser metódica y sistemática. Para una evaluación efectiva, se recomienda:\n• Observación estructurada: Basada en dimensiones y criterios previos.\n• Rol no participante: El observador no interfiere en la dinámica del aula.\n• Registro sistemático: Uso de evidencias y notas de campo organizadas.",
       "puntosClave": [
         "Observación metódica y sistemática",
         "Observación estructurada",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "titulo": "Elementos Clave ante la Observación",
-      "contenido": "Antes de observar, es imprescindible definir cinco elementos articuladores: el propósito (¿para qué?), el constructo (¿qué se observará?), el momento (¿cuándo?), el sujeto (¿a quién?) y el observador (¿quién?, requiriendo idoneidad y capacitación).",
+      "contenido": "Antes de observar, es imprescindible definir cinco elementos articuladores:\n• Propósito: ¿Para qué se realiza la observación?\n• Constructo: ¿Qué categorías o variables se van a medir?\n• Momento y Sujeto: ¿Cuándo y a quién se observará?\n• Observador: Quien debe poseer idoneidad y capacitación previa.",
       "puntosClave": [
         "Definición clara del propósito",
         "Delimitación del constructo",
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "titulo": "Requisitos de un Buen Indicador",
-      "contenido": "Para que un indicador sea válido en una pauta de observación, debe cumplir con cuatro requisitos fundamentales: ser coherente con el objetivo, relevante en su contenido, observable/medible directamente en la práctica, y poseer un referente único (evaluar solo un aspecto a la vez para evitar ambigüedad).",
+      "contenido": "Para que un indicador sea válido en una pauta de observación, debe cumplir con:\n• Coherencia y Relevancia: Alineación con el objetivo y contenido curricular.\n• Observabilidad: Conductas y evidencias medibles directamente.\n• Referente único: Evaluar solo un aspecto a la vez para evitar ambigüedades.",
       "puntosClave": [
         "Coherencia y relevancia",
         "Conductas directamente observables",
@@ -54,7 +54,7 @@
     {
       "id": 5,
       "titulo": "Retroalimentación y Uso de la Información",
-      "contenido": "La observación de aula no está completa sin el proceso de retroalimentación (feedback). Para que esta genere una mejora real en la práctica docente, debe ser específica, práctica y centrada en la mejora, evitando que se perciba como un juicio personal.",
+      "contenido": "La observación de aula no está completa sin el proceso de retroalimentación. Un feedback constructivo debe ser:\n• Específico: Basado en hechos y conductas observadas.\n• Práctico: Orientado a acciones concretas que el docente pueda realizar.\n• Centrado en la mejora: Enfocado en el crecimiento profesional más que en el juicio.",
       "puntosClave": [
         "Feedback específico y práctico",
         "Enfoque en la mejora continua",
@@ -66,25 +66,25 @@
   ],
   "organizadorPrevio": {
     "fases": [
-      { 
-        "nombre": "Paso 1: Definir el Constructo", 
-        "descripcion": "Establecer qué se evaluará basándose en estándares de la práctica profesional." 
+      {
+        "nombre": "Paso 1: Definir el Constructo",
+        "descripcion": "Establecer qué se evaluará basándose en estándares de la práctica profesional."
       },
-      { 
-        "nombre": "Paso 2: Identificar Dimensiones", 
-        "descripcion": "Desagregar el constructo en criterios o grandes ámbitos de evaluación." 
+      {
+        "nombre": "Paso 2: Identificar Dimensiones",
+        "descripcion": "Desagregar el constructo en criterios o grandes ámbitos de evaluación."
       },
-      { 
-        "nombre": "Paso 3: Formular Indicadores", 
-        "descripcion": "Crear sentencias observables, relevantes y de referente único para cada dimensión." 
+      {
+        "nombre": "Paso 3: Formular Indicadores",
+        "descripcion": "Crear sentencias observables, relevantes y de referente único para cada dimensión."
       },
-      { 
-        "nombre": "Paso 4: Generar el Instrumento", 
-        "descripcion": "Diseñar una lista de cotejo (para registro rápido) o una rúbrica (para valorar niveles de desempeño)." 
+      {
+        "nombre": "Paso 4: Generar el Instrumento",
+        "descripcion": "Diseñar una lista de cotejo (para registro rápido) o una rúbrica (para valorar niveles de desempeño)."
       },
-      { 
-        "nombre": "Paso 5: Aplicación Piloto", 
-        "descripcion": "Poner a prueba la pauta para detectar ambigüedades, calibrar observadores y realizar ajustes." 
+      {
+        "nombre": "Paso 5: Aplicación Piloto",
+        "descripcion": "Poner a prueba la pauta para detectar ambigüedades, calibrar observadores y realizar ajustes."
       }
     ]
   },
@@ -124,6 +124,20 @@
         "Debe ser específica, práctica y enfocada en la mejora a corto plazo."
       ],
       "respuesta": "Debe ser específica, práctica y enfocada en la mejora a corto plazo."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_m4_1",
+      "titulo": "Diferencia entre rúbrica y lista de cotejo.",
+      "url": "https://www.youtube.com/embed/FHXrQqm8t_A",
+      "descripcion": "Una rúbrica y una lista de cotejo son herramientas de evaluación, pero difieren en su enfoque y uso."
+    },
+    {
+      "id": "vid_m4_2",
+      "titulo": "Guía de observación de aula.",
+      "url": "https://www.youtube.com/embed/rvKiUYcLHLs",
+      "descripcion": "Un video que explica las características, el uso y la forma de aplicación de la guía de observación, instrumento para evaluar."
     }
   ]
 }

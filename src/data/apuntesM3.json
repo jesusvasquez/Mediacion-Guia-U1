@@ -18,7 +18,7 @@
     {
       "id": 2,
       "titulo": "El Docente como Mediador (Criterios de Tebar)",
-      "contenido": "Alfonso Torres destaca que mediar es tender puentes entre lo que se sabe y lo que se desconoce. Requiere interpelar la práctica tradicional, asumiendo los tres criterios esenciales: intencionalidad, trascendencia y significación, integrando el saber, el saber-hacer y el ser.",
+      "contenido": "Mediar es tender puentes entre lo que se sabe y lo que se desconoce. Requiere asumir tres criterios esenciales:\n• Intencionalidad: Propósito claro del acto educativo.\n• Trascendencia: Aplicabilidad del aprendizaje más allá del aquí y ahora.\n• Significación: Cargar de sentido y valor lo aprendido.",
       "puntosClave": [
         "Tender puentes cognitivos",
         "Interpelación de prácticas tradicionales",
@@ -30,7 +30,7 @@
     {
       "id": 3,
       "titulo": "Mediadores Exteriores (Perspectiva Vygotskiana)",
-      "contenido": "Los mediadores (verbales, visuales o físicos) funcionan como andamios temporales dentro de la Zona de Desarrollo Próximo (ZDP). La reflexión central radica en que ayudan al niño a transitar del desempeño asistido al independiente, facilitando la memoria, atención y autorregulación.",
+      "contenido": "Los mediadores funcionan como andamios temporales dentro de la Zona de Desarrollo Próximo (ZDP). Ayudan al estudiante a transitar hacia el desempeño independiente en:\n• Memoria: Almacenamiento y recuperación de información.\n• Atención: Focalización y concentración.\n• Autorregulación: Control de procesos mentales superiores.",
       "puntosClave": [
         "Mediadores como andamios temporales",
         "Zona de Desarrollo Próximo (ZDP)",
@@ -54,7 +54,7 @@
     {
       "id": 5,
       "titulo": "Estrategias Didácticas y Aprendizaje Significativo",
-      "contenido": "Reyes García concluye que la mediación no está completa sin estrategias didácticas (actividades, tareas, procedimientos) que trasladen el protagonismo al alumno. El verdadero aprendizaje significativo parte de los conocimientos previos y se fortalece promoviendo el pensamiento crítico, evitando la simple entrega de información (fotocopias).",
+      "contenido": "La mediación pedagógica se concreta mediante estrategias didácticas que trasladan el protagonismo al alumno. Estas incluyen:\n• Actividades: Acciones concretas de aprendizaje.\n• Tareas: Desafíos que requieren aplicación de saberes.\n• Procedimientos: Pasos metódicos para alcanzar un objetivo educativo.",
       "puntosClave": [
         "Cambio de paradigma docente",
         "Anclaje en saberes previos",
@@ -133,6 +133,20 @@
         "El grado de disciplina y silencio de los estudiantes en el aula."
       ],
       "respuesta": "Lo que el alumno ya sabe (su estructura cognitiva previa)."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_m3_1",
+      "titulo": "Feuerstein - Teoría de la modificabilidad estructural cognitiva y la mediación",
+      "url": "https://www.youtube.com/embed/XfUjuFkFnqQ",
+      "descripcion": "Feuerstein postula que el ser humano es un sistema abierto y dotado de plasticidad. En la EAM, el docente se interpone entre el entorno y el aprendiz, filtrando y organizando los estímulos."
+    },
+    {
+      "id": "vid_m3_2",
+      "titulo": "Vygotsky - La Teoría del Desarrollo Cognitivo a Través de las Relaciones Sociales.",
+      "url": "https://www.youtube.com/embed/fHdQWmbhfdE",
+      "descripcion": "La Teoría del Desarrollo Social de Vygotsky sostiene que la comunidad y el lenguaje juegan un papel central en el aprendizaje. Vygotsky creía que los niños se desarrollan independientemente de etapas específicas como resultado de las interacciones sociales."
     }
   ]
 }

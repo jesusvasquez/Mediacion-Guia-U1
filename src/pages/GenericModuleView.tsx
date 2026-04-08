@@ -1,6 +1,6 @@
 import { useState, useEffect, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import { FileText, CheckCircle, AlertTriangle, ArrowDown, ArrowRight } from 'lucide-react';
+import { FileText, CheckCircle, AlertTriangle, ArrowDown, ArrowRight, Video } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 
 interface ModuleData {
@@ -22,6 +22,12 @@ interface ModuleData {
     pregunta: string;
     opciones: string[];
     respuesta: string;
+  }[];
+  videos?: {
+    id: string;
+    titulo: string;
+    url: string;
+    descripcion: string;
   }[];
 }
 
@@ -164,9 +170,23 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
               <h3 className="text-lg" style={{ color: 'var(--text-main)', fontWeight: 700, fontSize: '1.05rem' }}>{ext.titulo}</h3>
             </div>
 
-            <p className="text-sm" style={{ color: 'var(--text-main)', lineHeight: 1.7, flexGrow: 1 }}>
-              {ext.contenido}
-            </p>
+            <div className="text-sm" style={{ color: 'var(--text-main)', lineHeight: 1.7, flexGrow: 1 }}>
+              {ext.contenido.split('\n').map((line, index) => {
+                const isBullet = line.trim().startsWith('•');
+                return (
+                  <p
+                    key={index}
+                    style={{
+                      marginBottom: isBullet ? '0.4rem' : '0.8rem',
+                      paddingLeft: isBullet ? '1.5rem' : '0',
+                      textIndent: isBullet ? '-1.1rem' : '0'
+                    }}
+                  >
+                    {line}
+                  </p>
+                );
+              })}
+            </div>
 
             <div style={{ marginTop: '0.5rem' }}>
               <p className="text-xs" style={{ fontWeight: 600, color: 'var(--text-muted)', marginBottom: '0.75rem' }}>Conceptos Rescatados:</p>
@@ -203,6 +223,45 @@ export default function GenericModuleView({ data }: GenericModuleViewProps) {
           </div>
         ))}
       </div>
+
+      {/* SECCIÓN DE VIDEOS COMPLEMENTARIOS */}
+      {data.videos && data.videos.length > 0 && (
+        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+          <h3 className="text-2xl" style={{ color: 'var(--primary)', marginBottom: '1.5rem', fontWeight: 600 }}>Material Complementario</h3>
+          
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+            {data.videos.map((video) => (
+              <div key={video.id} className="glass-panel" style={{ padding: '2rem', textAlign: 'left', borderTop: '6px solid var(--primary-light)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                  <Video size={24} color="var(--primary)" />
+                  <h4 className="text-xl" style={{ color: 'var(--text-main)', fontWeight: 700 }}>{video.titulo}</h4>
+                </div>
+                
+                <p className="text-sm text-muted" style={{ marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                  {video.descripcion}
+                </p>
+                
+                <div style={{ 
+                  position: 'relative', 
+                  width: '100%', 
+                  paddingBottom: '56.25%', /* 16:9 Aspect Ratio */
+                  borderRadius: '12px',
+                  overflow: 'hidden',
+                  boxShadow: '0 8px 24px rgba(0,0,0,0.1)'
+                }}>
+                  <iframe
+                    src={video.url}
+                    title={video.titulo}
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* MINI TEST INTERACTIVO */}
       <div style={{ padding: '3rem', background: 'var(--surface)', borderRadius: '20px', boxShadow: 'var(--shadow-ambient)', border: '1px solid var(--border-light)', marginTop: '2rem' }}>

@@ -13,6 +13,14 @@
   --secondary-hover: #215c36;
   --secondary-light: #1a472a22;
   
+  --tertiary: #0369a1; /* Ocean Blue */
+  --tertiary-hover: #075985;
+  --tertiary-light: #0369a122;
+
+  --quaternary: #ae5a0a; /* Deep Orange/Amber */
+  --quaternary-hover: #92400e;
+  --quaternary-light: #ae5a0a22;
+  
   --accent-gold: #b08d57;
   
   --text-main: #1d1d1f; /* macOS dark gray */

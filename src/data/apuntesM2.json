@@ -18,7 +18,7 @@
     {
       "id": 2,
       "titulo": "Bases Neurocientíficas del Aprendizaje",
-      "contenido": "La diversidad neurológica demuestra que no existen dos cerebros iguales. El aprendizaje se distribuye en tres subredes: Redes de reconocimiento (percibir información), Redes estratégicas (planificar y ejecutar tareas) y Redes afectivas (motivación e implicación emocional).",
+      "contenido": "La diversidad neurológica demuestra que no existen dos cerebros iguales. El aprendizaje se distribuye en tres subredes:\n• Redes de reconocimiento: Recepción y percepción de la información (el qué).\n• Redes estratégicas: Planificación y ejecución de tareas (el cómo).\n• Redes afectivas: Motivación e implicación emocional (el porqué).",
       "puntosClave": [
         "Redes de reconocimiento (el qué)",
         "Redes estratégicas (el cómo)",
@@ -30,7 +30,7 @@
     {
       "id": 3,
       "titulo": "El Papel de los Medios Digitales",
-      "contenido": "A diferencia de los medios tradicionales (habla, texto impreso, imagen), que imponen barreras a ciertos alumnos, los medios digitales poseen una flexibilidad inherente. Destacan por su versatilidad, capacidad de transformación y la posibilidad de conexión (red) para individualizar el aprendizaje.",
+      "contenido": "A diferencia de los medios tradicionales que imponen barreras, los medios digitales poseen una flexibilidad inherente. Destacan por:\n• Versatilidad: Capacidad para adaptarse a diferentes formatos.\n• Capacidad de transformación: Permite que el contenido cambie según la necesidad.\n• Posibilidad de conexión: Facilita el acceso en red para individualizar el aprendizaje.",
       "puntosClave": [
         "Versatilidad y transformación",
         "Reducción de barreras sensoriales",
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "titulo": "Los Tres Principios y Pautas del DUA",
-      "contenido": "Para llevar el DUA a la práctica docente, se plantean tres principios fundamentales: 1) Múltiples formas de representación de la información, 2) Múltiples formas de acción y expresión del aprendizaje, y 3) Múltiples formas de implicación para mantener el esfuerzo y motivación.",
+      "contenido": "Para llevar el DUA a la práctica docente, se plantean tres principios fundamentales:\n• Proporcionar múltiples formas de representación (el qué).\n• Proporcionar múltiples formas de acción y expresión (el cómo).\n• Proporcionar múltiples formas de implicación (el porqué).",
       "puntosClave": [
         "Principio I: Representación",
         "Principio II: Acción y Expresión",
@@ -95,6 +95,14 @@
         "Proporcionar múltiples formas de representación."
       ],
       "respuesta": "Proporcionar múltiples formas de acción y expresión."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_m2_1",
+      "titulo": "¿Qué es el DUA? - Diseño Universal para el Aprendizaje",
+      "url": "https://www.youtube.com/embed/u8tK8UkoAmM",
+      "descripcion": "Un video explicativo que resume los fundamentos y la importancia del Diseño Universal para el Aprendizaje en la creación de aulas inclusivas."
     }
   ]
 }
