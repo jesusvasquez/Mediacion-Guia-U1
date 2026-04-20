@@ -1,5 +1,5 @@
 import { NavLink, useLocation } from 'react-router-dom';
-import { Brain, LayoutDashboard, Users, Library, CheckCircle2, X } from 'lucide-react';
+import { Brain, LayoutDashboard, Users, Library, CheckCircle2, X, RotateCcw } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 
 interface SidebarProps {
@@ -15,7 +15,7 @@ export default function Sidebar({ onClose }: SidebarProps) {
     { name: 'Módulo 2: Diseño Universal para el Aprendizaje', path: '/modulo/2', icon: LayoutDashboard },
     { name: 'Módulo 3: La Mediación Pedagógica', path: '/modulo/3', icon: Users },
     { name: 'Módulo 4: La Pauta de Observación', path: '/modulo/4', icon: CheckCircle2 },
-    { name: 'Evaluación Final', path: '/evaluacion', icon: CheckCircle2 },
+    { name: 'Simulador de Examen', path: '/evaluacion', icon: RotateCcw },
     { name: 'Bibliografía', path: '/bibliografia', icon: Library },
   ];
 

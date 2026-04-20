@@ -36,8 +36,12 @@ export default function Results() {
   const [history, setHistory] = useState<ExamHistoryItem[]>([]);
 
   useEffect(() => {
-    const savedScore = localStorage.getItem('benune_score');
-    const savedHistoryStr = localStorage.getItem('benune_exam_history');
+    const examType = localStorage.getItem('benune_exam_type') || 'simulator';
+    const scoreKey = examType === 'final' ? 'benune_final_score' : 'benune_score';
+    const historyKey = examType === 'final' ? 'benune_final_exam_history' : 'benune_exam_history';
+
+    const savedScore = localStorage.getItem(scoreKey);
+    const savedHistoryStr = localStorage.getItem(historyKey);
 
     if (savedScore) setScore(parseFloat(savedScore));
     else setScore(0);
@@ -51,6 +55,8 @@ export default function Results() {
     }
   }, []);
 
+  const examType = localStorage.getItem('benune_exam_type') || 'simulator';
+
   const themeStats = useMemo(() => {
     const stats: Record<string, { total: number, correct: number }> = {};
     history.forEach(item => {
@@ -61,16 +67,22 @@ export default function Results() {
     });
     return Object.entries(stats).map(([name, data]) => ({
       name,
-      percentage: (data.correct / data.total) * 100,
-      isSolid: ((data.correct / data.total) * 100) >= 80,
+      percentage: (data.correct / (data.total || 1)) * 100,
+      isSolid: ((data.correct / (data.total || 1)) * 100) >= 80,
       ...THEME_METADATA[name]
     }));
   }, [history]);
 
   const handleRetake = () => {
-    localStorage.removeItem('benune_score');
-    localStorage.removeItem('benune_exam_history');
-    navigate('/evaluacion');
+    if (examType === 'final') {
+      localStorage.removeItem('benune_final_score');
+      localStorage.removeItem('benune_final_exam_history');
+      navigate('/examen-final');
+    } else {
+      localStorage.removeItem('benune_score');
+      localStorage.removeItem('benune_exam_history');
+      navigate('/evaluacion');
+    }
   };
 
   const handleDownloadPDF = async () => {
@@ -116,7 +128,7 @@ export default function Results() {
 
     doc.setFontSize(16);
     doc.setTextColor(0, 0, 0);
-    doc.text("Informe de resultados - Unidad 1", 14, 52);
+    doc.text(examType === 'final' ? "Examen Final de Unidad 1" : "Simulacro de Evaluación - Unidad 1", 14, 52);
 
     doc.setFontSize(11);
     doc.setFont('helvetica', 'normal');
@@ -129,17 +141,18 @@ export default function Results() {
     else scoreColor = [132, 32, 41];
 
     doc.setFont('helvetica', 'bold');
-    doc.text("Calificación Obtenida: ", 14, 76);
+    doc.text("Resultado de Evaluación: ", 14, 76);
     doc.setTextColor(...scoreColor);
-    doc.text(` ${roundedScore}%`, 55, 76);
+    doc.text(` ${roundedScore}%`, 61, 76);
 
     doc.setTextColor(0, 0, 0);
     doc.setFont('helvetica', 'normal');
-    doc.text(`Fecha de Emisión: ${new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}`, 14, 82);
+    const today = new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+    doc.text(`Fecha de Emisión: ${today}`, 14, 82);
 
     doc.setFontSize(12);
     doc.setFont('helvetica', 'bold');
-    doc.text("Resumen de Desempeño y Recomendaciones", 14, 94);
+    doc.text("Resumen de Desempeño y Orientaciones", 14, 94);
     doc.setFont('helvetica', 'normal');
 
     const weakThemes = themeStats.filter(t => !t.isSolid);
@@ -206,7 +219,8 @@ export default function Results() {
       }
     });
 
-    doc.save(`Informe_Evaluacion_Benune_${userName.replace(' ', '_')}.pdf`);
+    const typeStr = examType === 'final' ? 'Examen_Final' : 'Simulacro';
+    doc.save(`Informe_${typeStr}_Unidad1_${userName.replace(/\s+/g, '_')}.pdf`);
   };
 
   if (score === null) return <div>Cargando resultados...</div>;
@@ -214,18 +228,20 @@ export default function Results() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
 
-      <div style={{ textAlign: 'center', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div className="results-header">
         <div style={{ textAlign: 'left' }}>
           <h1 className="text-3xl" style={{ color: 'var(--primary)', marginBottom: '0.5rem' }}>Resultados Finales de {userName}</h1>
           <p className="text-base text-muted">Aquí tienes un resumen de tu desempeño y recomendaciones.</p>
         </div>
 
-        <button onClick={handleRetake} className="btn btn-secondary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
-          <RotateCcw size={18} /> Volver a Intentar
-        </button>
+        {examType !== 'final' && (
+          <button onClick={handleRetake} className="btn btn-secondary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+            <RotateCcw size={18} /> Volver a Intentar
+          </button>
+        )}
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'minmax(300px, 1fr) 2fr', gap: '2.5rem', alignItems: 'start' }}>
+      <div className="results-grid">
 
         <div className="glass-panel" style={{ padding: '3rem 2rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <div style={{ position: 'relative', width: '200px', height: '200px', marginBottom: '2.5rem' }}>
