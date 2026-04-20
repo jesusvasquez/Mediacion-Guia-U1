@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { Lock, Clock, AlertCircle } from 'lucide-react';
+import { Clock, AlertCircle } from 'lucide-react';
 import reactivosData from '../data/reactivos.json';
 import { useAppContext } from '../context/AppContext';
 import { db } from '../firebase';
@@ -22,7 +22,7 @@ export interface FinalExamHistoryItem {
 
 export default function FinalExam() {
   const navigate = useNavigate();
-  const { userName, userEmail, completedModules } = useAppContext();
+  const { userName, userEmail } = useAppContext();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string>>({});

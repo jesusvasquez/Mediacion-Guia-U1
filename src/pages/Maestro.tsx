@@ -4,7 +4,7 @@ import { collection, query, orderBy, onSnapshot, deleteDoc, doc } from 'firebase
 import type { DocumentData } from 'firebase/firestore';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
-import { Users, Search, FileText, Calendar, TrendingUp, Download, Eye, Trash2, ChevronRight, FileSpreadsheet } from 'lucide-react';
+import { Users, Search, FileText, Calendar, TrendingUp, Download, Eye, Trash2, FileSpreadsheet } from 'lucide-react';
 
 interface StudentResult extends DocumentData {
   id: string;
@@ -86,7 +86,7 @@ export default function Maestro() {
 
   const handleDownloadStudentPDF = async (student: StudentResult) => {
     const doc = new jsPDF();
-    const { estudiante, score, correctAnswers, totalQuestions, timestamp, type, history } = student;
+    const { estudiante, score, timestamp, type, history } = student;
     const dateStr = timestamp?.toDate().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' }) || 'N/A';
 
     // Header Background
